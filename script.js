@@ -31,12 +31,26 @@ fetch('glossaire.json')
     const searchInput = document.getElementById('search');
     const resultsDiv = document.getElementById('results');
 
+    // Fonction pour afficher tous les termes du glossaire
+    function displayAllTerms() {
+      resultsDiv.innerHTML = '';  // Réinitialiser les résultats
+      data.forEach(entry => {
+        const termDiv = document.createElement('div');
+        termDiv.innerHTML = `<h3>${entry.term}</h3><p>${entry.definition}</p>`;
+        resultsDiv.appendChild(termDiv);
+      });
+    }
+
+    // Afficher tous les termes au départ
+    displayAllTerms();
+
+    // Ajouter un événement sur la barre de recherche
     searchInput.addEventListener('input', () => {
       const query = searchInput.value.trim();
 
-      // Ne pas chercher si la requête est trop courte (par exemple, moins de 3 caractères)
+      // Si la recherche est vide ou trop courte, afficher tous les termes
       if (query.length < 3) {
-        resultsDiv.innerHTML = '';  // Réinitialiser les résultats
+        displayAllTerms();  // Réafficher tous les termes
         return;
       }
 
