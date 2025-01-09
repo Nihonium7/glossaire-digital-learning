@@ -1,336 +1,336 @@
 [
     {
-        "terme": "Accessibilité (critères RGAA)",
+        "term": "Accessibilité (critères RGAA)",
         "définition": "Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA)."
     },
     {
-        "terme": "Adobe Illustrator",
+        "term": "Adobe Illustrator",
         "définition": "Logiciel de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies."
     },
     {
-        "terme": "Adobe Photoshop",
+        "term": "Adobe Photoshop",
         "définition": "Logiciel de retouche photo et de conception graphique pour modifier et créer des images numériques."
     },
     {
-        "terme": "Adobe Premiere",
+        "term": "Adobe Premiere",
         "définition": "Logiciel de montage vidéo professionnel permettant de créer des vidéos éditées de qualité."
     },
     {
-        "terme": "Analyse des besoins",
+        "term": "Analyse des besoins",
         "définition": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée."
     },
     {
-        "terme": "Articulate Rise",
+        "term": "Articulate Rise",
         "définition": "Outil de création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation."
     },
     {
-        "terme": "Articulate Storyline",
+        "term": "Articulate Storyline",
         "définition": "Outil e-learning permettant de concevoir des modules interactifs et multimédias."
     },
     {
-        "terme": "Blended learning",
+        "term": "Blended learning",
         "définition": "Approche hybride combinant des sessions en ligne et des cours en présentiel."
     },
     {
-        "terme": "Brainstorming",
+        "term": "Brainstorming",
         "définition": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème."
     },
     {
-        "terme": "Brief de sonorisation",
+        "term": "Brief de sonorisation",
         "définition": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet."
     },
     {
-        "terme": "Brief environnement",
+        "term": "Brief environnement",
         "définition": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel."
     },
     {
-        "terme": "Brief personnages",
+        "term": "Brief personnages",
         "définition": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs)."
     },
     {
-        "terme": "Canaux Teams",
+        "term": "Canaux Teams",
         "définition": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal teams par projet."
     },
     {
-        "terme": "Charte éditoriale",
+        "term": "Charte éditoriale",
         "définition": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet."
     },
     {
-        "terme": "Charte graphique",
+        "term": "Charte graphique",
         "définition": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente."
     },
     {
-        "terme": "Classe virtuelle",
+        "term": "Classe virtuelle",
         "définition": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants."
     },
     {
-        "terme": "Conception",
+        "term": "Conception",
         "définition": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage."
     },
     {
-        "terme": "Contenu pédagogique",
+        "term": "Contenu pédagogique",
         "définition": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences."
     },
     {
-        "terme": "Déclinaisons graphiques",
+        "term": "Déclinaisons graphiques",
         "définition": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats."
     },
     {
-        "terme": "Démo",
+        "term": "Démo",
         "définition": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours."
     },
     {
-        "terme": "Digitalisation",
+        "term": "Digitalisation",
         "définition": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne."
     },
     {
-        "terme": "Direction artistique",
+        "term": "Direction artistique",
         "définition": "Processus de conception et supervision de l’aspect visuel d’un projet."
     },
     {
-        "terme": "E-learning",
+        "term": "E-learning",
         "définition": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs."
     },
     {
-        "terme": "Enregistrements audio et vidéo",
+        "term": "Enregistrements audio et vidéo",
         "définition": "Supports multimédias enrichissant les cours et démonstrations."
     },
     {
-        "terme": "Excel de ressources graphiques (storyboard)",
+        "term": "Excel de ressources graphiques (storyboard)",
         "définition": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard."
     },
     {
-        "terme": "Évaluation formative",
+        "term": "Évaluation formative",
         "définition": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation."
     },
     {
-        "terme": "Évaluation sommative (finale)",
+        "term": "Évaluation sommative (finale)",
         "définition": "Évaluation en fin de programme pour valider les compétences acquises."
     },
     {
-        "terme": "Fiche d’aspects techniques",
+        "term": "Fiche d’aspects techniques",
         "définition": "Document listant les contraintes et spécifications techniques d’un projet."
     },
     {
-        "terme": "Fiche de sonorisation",
+        "term": "Fiche de sonorisation",
         "définition": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié."
     },
     {
-        "terme": "Fiche ID projets",
+        "term": "Fiche ID projets",
         "définition": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales."
     },
     {
-        "terme": "Fiche projet",
+        "term": "Fiche projet",
         "définition": "Document de référence détaillant les informations clés sur un projet."
     },
     {
-        "terme": "Fiche REX clients",
+        "term": "Fiche REX clients",
         "définition": "Retour d’expérience d’un client concernant un projet livré."
     },
     {
-        "terme": "Formation à distance",
+        "term": "Formation à distance",
         "définition": "Apprentissage réalisé sans la présence physique de l’enseignant et de l’apprenant dans le même lieu."
     },
     {
-        "terme": "Formation en blended learning",
+        "term": "Formation en blended learning",
         "définition": "Formation hybride combinant des séances en ligne et en présentiel."
     },
     {
-        "terme": "Formation en ligne asynchrone",
+        "term": "Formation en ligne asynchrone",
         "définition": "Formation permettant aux apprenants de suivre le programme à leur propre rythme."
     },
     {
-        "terme": "Formation en ligne synchrone",
+        "term": "Formation en ligne synchrone",
         "définition": "Formation en temps réel réunissant apprenants et formateurs connectés simultanément."
     },
     {
-        "terme": "Formation en présentiel",
+        "term": "Formation en présentiel",
         "définition": "Formation traditionnelle où enseignants et apprenants se retrouvent dans un même lieu physique."
     },
     {
-        "terme": "Formation par apprentissage expérientiel",
+        "term": "Formation par apprentissage expérientiel",
         "définition": "La formation par apprentissage expérientiel implique que les apprenants apprennent en faisant des expériences pratiques, plutôt que par des explications théoriques."
     },
     {
-        "terme": "Formation par jeu",
+        "term": "Formation par jeu",
         "définition": "La formation par jeu implique que les apprenants apprennent en jouant à des jeux éducatifs."
     },
     {
-        "terme": "Formation par projet",
+        "term": "Formation par projet",
         "définition": "La formation par projet implique que les apprenants travaillent sur des projets pratiques pour acquérir des compétences et des connaissances."
     },
     {
-        "terme": "Formation par simulation",
+        "term": "Formation par simulation",
         "définition": "La formation par simulation implique que les apprenants apprennent en simulant des situations réelles."
     },
     {
-        "terme": "Formation par résolution de problèmes",
+        "term": "Formation par résolution de problèmes",
         "définition": "La formation par résolution de problèmes implique que les apprenants travaillent sur des problèmes pratiques pour acquérir des compétences et des connaissances."
     },
     {
-        "terme": "Gamification",
+        "term": "Gamification",
         "définition": "Intégration d’éléments de jeu dans un cours pour stimuler la motivation et l’engagement des apprenants."
     },
     {
-        "terme": "Graphisme 2D",
+        "term": "Graphisme 2D",
         "définition": "Ensemble d’éléments graphiques réalisés en 2 dimensions sur des logiciels spécifiques (Adobe Photoshop, Adobe Indesign, Adobe Illustrator, autres ?)."
     },
     {
-        "terme": "Graphisme 3D",
+        "term": "Graphisme 3D",
         "définition": "Ensemble d’éléments graphiques réalisés en 3 dimensions sur des logiciels spécifiques (Unreal Engine, autres ?)."
     },
     {
-        "terme": "Interactivité",
+        "term": "Interactivité",
         "définition": "Caractéristique d’un contenu permettant une interaction entre l’apprenant et les éléments pédagogiques."
     },
     {
-        "terme": "Lien de review interne",
+        "term": "Lien de review interne",
         "définition": "Lien html issu d’articulate storyline afin de procéder aux étapes de recettages interne par le LD, et au recettage technique, par le directeur technique."
     },
     {
-        "terme": "Lien de review clients",
+        "term": "Lien de review clients",
         "définition": "Lien html issu d’articulate storyline qui permet aux clients de visualiser le module elearning et de soumettre leurs demandes de corrections."
     },
     {
-        "terme": "LMS (Learning Management System)",
+        "term": "LMS (Learning Management System)",
         "définition": "Système de gestion de l'apprentissage permettant de créer, suivre et gérer des cours en ligne."
     },
     {
-        "terme": "Maquette graphique (propositions de Direction Artistique)",
+        "term": "Maquette graphique (propositions de Direction Artistique)",
         "définition": "Représentation visuelle de l’identité visuelle d’un projet, incluant les choix de couleurs, typographies et illustrations."
     },
     {
-        "terme": "Microlearning",
+        "term": "Microlearning",
         "définition": "Méthode d’apprentissage en petites séquences pour faciliter la compréhension et la rétention."
     },
     {
-        "terme": "MOOC (Massive Open Online Course)",
+        "term": "MOOC (Massive Open Online Course)",
         "définition": "Cours en ligne accessible à tous, souvent gratuit et regroupant un large public."
     },
     {
-        "terme": "Motion design",
+        "term": "Motion design",
         "définition": "Conception de contenus animés pour présenter des idées ou produits de manière dynamique."
     },
     {
-        "terme": "Médias interactifs",
+        "term": "Médias interactifs",
         "définition": "Supports numériques engageants incluant quiz, jeux, simulations et vidéos interactives."
     },
     {
-        "terme": "Médias pédagogiques",
+        "term": "Médias pédagogiques",
         "définition": "Supports audiovisuels et visuels utilisés pour transmettre des connaissances efficacement."
     },
     {
-        "terme": "Modules de formation mobiles",
+        "term": "Modules de formation mobiles",
         "définition": "Les modules de formation mobiles sont conçus pour être consultés sur des appareils mobiles tels que les smartphones et les tablettes."
     },
     {
-        "terme": "Objectifs pédagogiques",
+        "term": "Objectifs pédagogiques",
         "définition": "Descriptions précises des compétences et connaissances visées par une formation."
     },
     {
-        "terme": "Onboarding logiciel",
+        "term": "Onboarding logiciel",
         "définition": "Processus d’intégration pour accompagner les utilisateurs dans la prise en main d’un logiciel."
     },
     {
-        "terme": "Planification",
+        "term": "Planification",
         "définition": "Organisation du contenu, des méthodes et des supports pour structurer un programme d’apprentissage."
     },
     {
-        "terme": "Plateforme d'apprentissage",
+        "term": "Plateforme d'apprentissage",
         "définition": "Une plateforme d'apprentissage est un système qui permet aux enseignants et aux formateurs de créer, de gérer et de suivre des cours en ligne."
     },
     {
-        "terme": "Podcasts",
+        "term": "Podcasts",
         "définition": "Contenus audio éducatifs pour approfondir des sujets spécifiques."
     },
     {
-        "terme": "Proposition technico-pédagogique (propale)",
+        "term": "Proposition technico-pédagogique (propale)",
         "définition": "Document détaillant l’approche technique et pédagogique d’un projet."
     },
     {
-        "terme": "PV de livraison (UGAP)",
+        "term": "PV de livraison (UGAP)",
         "définition": "Procès Verbal de livraison, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi. Transmission d’un questionnaire de satisfaction en lien avec la contractualisation UGAP."
     },
     {
-        "terme": "PV de livraison (sans UGAP)",
+        "term": "PV de livraison (sans UGAP)",
         "définition": "Procès Verbal de livraison – non lié à l’UGAP, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi."
     },
     {
-        "terme": "Réalité augmentée (AR)",
+        "term": "Réalité augmentée (AR)",
         "définition": "Technologie enrichissant un environnement réel avec des éléments numériques."
     },
     {
-        "terme": "Réalité virtuelle (VR)",
+        "term": "Réalité virtuelle (VR)",
         "définition": "Technologie immersant les utilisateurs dans un environnement entièrement virtuel."
     },
     {
-        "terme": "Recettage technique",
+        "term": "Recettage technique",
         "définition": "Étape de production dans laquelle le directeur technique relit le module et contrôle sa bonne fonctionnalité. Edition d’un document de recettage technique à destination de la LD/ prod."
     },
     {
-        "terme": "Rétroplanning",
+        "term": "Rétroplanning",
         "définition": "Planification détaillée d’un projet à partir de la date de livraison en remontant vers le présent."
     },
     {
-        "terme": "Réunion de cadrage",
+        "term": "Réunion de cadrage",
         "définition": "Rencontre initiale pour fixer les objectifs, contraintes et attentes d’un projet."
     },
     {
-        "terme": "Réunion de lancement",
+        "term": "Réunion de lancement",
         "définition": "Première rencontre officielle pour démarrer un projet et informer les parties prenantes."
     },
     {
-        "terme": "SCORM (Sharable Content Object Reference Model)",
+        "term": "SCORM (Sharable Content Object Reference Model)",
         "définition": "Norme assurant l’interopérabilité des contenus e-learning entre différents LMS."
     },
     {
-        "terme": "SCORM Cloud",
+        "term": "SCORM Cloud",
         "définition": "Plateforme permettant de tester et d’évaluer la compatibilité des modules SCORM."
     },
     {
-        "terme": "Scénarisation",
+        "term": "Scénarisation",
         "définition": "Conception des scénarios pédagogiques pour structurer un cours en ligne."
     },
     {
-        "terme": "Script pédagogique",
+        "term": "Script pédagogique",
         "définition": "Document détaillant le contenu, les dialogues et les interactions d’un module e-learning."
     },
     {
-        "terme": "Serious games",
+        "term": "Serious games",
         "définition": "Les jeux sérieux sont des jeux qui ont été conçus pour enseigner des compétences et des connaissances spécifiques tout en divertissant les joueurs."
     },
     {
-        "terme": "Sonorisation (étape projet)",
+        "term": "Sonorisation (étape projet)",
         "définition": "Phase du projet au cours de laquelle le studio de sonorisation est sollicité afin de faire enregistrer l’ensemble des voix off, par des comédiens professionnels."
     },
     {
-        "terme": "SPOC",
+        "term": "SPOC",
         "définition": "Small Private Online Course. Il s'agit d'un cours en ligne similaire à un MOOC, mais avec un nombre limité de participants."
     },
     {
-        "terme": "Storyboard",
+        "term": "Storyboard",
         "définition": "Un storyboard est un plan détaillé de chaque diapositive ou page du cours en ligne, avec des notes sur le texte, les images et les interactions prévues."
     },
     {
-        "terme": "Synopsis",
+        "term": "Synopsis",
         "définition": "Document de travail rédigé par la LD, compilant l’ensemble des contenus des clients, répartis dans des séquences/chapitres, correspondant à des objectifs pédagogiques. Des premières idées de traitements pédagogiques seront mentionnées dans ce document."
     },
     {
-        "terme": "Tutoriel",
+        "term": "Tutoriel",
         "définition": "Guide ou instructions pour aider à apprendre ou utiliser un sujet ou un logiciel."
     },
     {
-        "terme": "UGAP",
+        "term": "UGAP",
         "définition": "Centrale d'achat publique en France qui permet aux administrations publiques et aux établissements publics de réaliser des achats de manière centralisée, pour bénéficier de conditions avantageuses (tarifs réduits, simplification des démarches administratives)."
     },
     {
-        "terme": "UI Design",
+        "term": "UI Design",
         "définition": "Conception des éléments visuels (boutons de navigation entre autres) avec lesquels l'utilisateur interagit sur un produit numérique."
     },
     {
-        "terme": "UX Design",
+        "term": "UX Design",
         "définition": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle."
     },
     {
-        "terme": "Vidéos éducatives",
+        "term": "Vidéos éducatives",
         "définition": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des
