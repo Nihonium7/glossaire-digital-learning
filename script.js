@@ -9,29 +9,6 @@ fetch('glossaire.json')
       return;
     }
 
-    // Construire l'index Lunr
-    const lunrIndex = lunr(function () {
-      this.field('term');  // Champ "term" pour la recherche
-      this.field('definition');  // Champ "definition" pour la recherche
-      this.ref('term');  // Référence basée sur "term" (clé unique)
-
-      // Ajouter chaque entrée dans l'index Lunr
-      data.forEach((entry) => {
-        if (entry.term && entry.definition) {
-          this.add({
-            term: entry.term,
-            definition: entry.definition,
-          });
-        } else {
-          console.error('Entrée mal formée:', entry);
-        }
-      });
-    });
-
-    // Ajouter un événement sur le champ de recherche
-    const searchInput = document.getElementById('search');
-    const resultsDiv = document.getElementById('results');
-
     // Fonction pour calculer la distance de Levenshtein
     function levenshtein(a, b) {
       const tmp = [];
@@ -50,6 +27,10 @@ fetch('glossaire.json')
       return tmp[b.length][a.length];
     }
 
+    // Ajouter un événement sur le champ de recherche
+    const searchInput = document.getElementById('search');
+    const resultsDiv = document.getElementById('results');
+
     searchInput.addEventListener('input', () => {
       const query = searchInput.value.trim();
 
@@ -59,17 +40,12 @@ fetch('glossaire.json')
         return;
       }
 
-      // Recherche de correspondances exactes via Lunr
-      const results = lunrIndex.search(query);
-
-      // Recherche de correspondances approximatives via Levenshtein
+      // Trouver les termes les plus proches via Levenshtein
       const closestMatches = [];
       data.forEach(entry => {
         const distance = levenshtein(query.toLowerCase(), entry.term.toLowerCase());
-        // Seuil de tolérance pour accepter la correspondance
-        if (distance <= 3) {  // Ajuster la tolérance selon tes besoins
-          closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
-        }
+        // Si la distance est faible, on considère que c'est un bon match
+        closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
       });
 
       // Trier les résultats pour avoir le terme le plus proche en premier
@@ -77,24 +53,15 @@ fetch('glossaire.json')
 
       // Affichage des résultats
       resultsDiv.innerHTML = '';  // Réinitialiser les résultats
-      if (closestMatches.length === 0 && !results.length) {
+      if (closestMatches.length === 0) {
         resultsDiv.innerHTML = '<p>Aucun résultat trouvé.</p>';
       }
 
-      // Affichage des résultats exacts (Lunr) et approximatifs (Levenshtein)
+      // Affichage des résultats les plus proches
       closestMatches.forEach(match => {
         const termDiv = document.createElement('div');
         termDiv.innerHTML = `<h3>${match.term}</h3><p>${match.definition}</p>`;
         resultsDiv.appendChild(termDiv);
-      });
-
-      results.forEach(result => {
-        const match = data.find(item => item.term === result.ref);
-        if (match) {
-          const termDiv = document.createElement('div');
-          termDiv.innerHTML = `<h3>${match.term}</h3><p>${match.definition}</p>`;
-          resultsDiv.appendChild(termDiv);
-        }
       });
     });
   })
