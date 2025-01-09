@@ -1,227 +1,227 @@
 [
   {
-    "id": "1",
-    "terme": "Accessibilité (critères RGAA)",
-    "definition": "Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA)."
+	"id": "1",
+	"term": "Accessibilité (critères RGAA)",
+	"definition": "Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA)."
   },
   {
-    "id": "2",
-    "terme": "Adobe Illustrator",
-    "definition": "Logiciel de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies."
+	"id": "2",
+	"term": "Adobe Illustrator",
+	"definition": "Logiciel de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies."
   },
   {
-    "id": "3",
-    "terme": "Adobe Photoshop",
-    "definition": "Logiciel de retouche photo et de conception graphique pour modifier et créer des images numériques."
+	"id": "3",
+	"term": "Adobe Photoshop",
+	"definition": "Logiciel de retouche photo et de conception graphique pour modifier et créer des images numériques."
   },
   {
-    "id": "4",
-    "terme": "Adobe Premiere",
-    "definition": "Logiciel de montage vidéo professionnel permettant de créer des vidéos éditées de qualité."
+	"id": "4",
+	"term": "Adobe Premiere",
+	"definition": "Logiciel de montage vidéo professionnel permettant de créer des vidéos éditées de qualité."
   },
   {
-    "id": "5",
-    "terme": "Analyse des besoins",
-    "definition": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée."
+	"id": "5",
+	"term": "Analyse des besoins",
+	"definition": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée."
   },
   {
-    "id": "6",
-    "terme": "Articulate Rise",
-    "definition": "Outil de création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation."
+	"id": "6",
+	"term": "Articulate Rise",
+	"definition": "Outil de création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation."
   },
   {
-    "id": "7",
-    "terme": "Articulate Storyline",
-    "definition": "Outil e-learning permettant de concevoir des modules interactifs et multimédias."
+	"id": "7",
+	"term": "Articulate Storyline",
+	"definition": "Outil e-learning permettant de concevoir des modules interactifs et multimédias."
   },
   {
-    "id": "8",
-    "terme": "Blended learning",
-    "definition": "Approche hybride combinant des sessions en ligne et des cours en présentiel."
+	"id": "8",
+	"term": "Blended learning",
+	"definition": "Approche hybride combinant des sessions en ligne et des cours en présentiel."
   },
   {
-    "id": "9",
-    "terme": "Brainstorming",
-    "definition": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème."
+	"id": "9",
+	"term": "Brainstorming",
+	"definition": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème."
   },
   {
-    "id": "10",
-    "terme": "Brief de sonorisation",
-    "definition": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet."
+	"id": "10",
+	"term": "Brief de sonorisation",
+	"definition": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet."
   },
   {
-    "id": "11",
-    "terme": "Brief environnement",
-    "definition": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel."
+	"id": "11",
+	"term": "Brief environnement",
+	"definition": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel."
   },
   {
-    "id": "12",
-    "terme": "Brief personnages",
-    "definition": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs)."
+	"id": "12",
+	"term": "Brief personnages",
+	"definition": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs)."
   },
   {
-    "id": "13",
-    "terme": "Canaux Teams",
-    "definition": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal Teams par projet."
+	"id": "13",
+	"term": "Canaux Teams",
+	"definition": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal Teams par projet."
   },
   {
-    "id": "14",
-    "terme": "Charte éditoriale",
-    "definition": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet."
+	"id": "14",
+	"term": "Charte éditoriale",
+	"definition": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet."
   },
   {
-    "id": "15",
-    "terme": "Charte graphique",
-    "definition": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente."
+	"id": "15",
+	"term": "Charte graphique",
+	"definition": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente."
   },
   {
-    "id": "16",
-    "terme": "Classe virtuelle",
-    "definition": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants."
+	"id": "16",
+	"term": "Classe virtuelle",
+	"definition": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants."
   },
   {
-    "id": "17",
-    "terme": "Conception",
-    "definition": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage."
+	"id": "17",
+	"term": "Conception",
+	"definition": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage."
   },
   {
-    "id": "18",
-    "terme": "Contenu pédagogique",
-    "definition": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences."
+	"id": "18",
+	"term": "Contenu pédagogique",
+	"definition": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences."
   },
   {
-    "id": "19",
-    "terme": "Déclinaisons graphiques",
-    "definition": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats."
+	"id": "19",
+	"term": "Déclinaisons graphiques",
+	"definition": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats."
   },
   {
-    "id": "20",
-    "terme": "Démo",
-    "definition": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours."
+	"id": "20",
+	"term": "Démo",
+	"definition": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours."
   },
   {
-    "id": "21",
-    "terme": "Digitalisation",
-    "definition": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne."
+	"id": "21",
+	"term": "Digitalisation",
+	"definition": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne."
   },
   {
-    "id": "22",
-    "terme": "Direction artistique",
-    "definition": "Processus de conception et supervision de l’aspect visuel d’un projet."
+	"id": "22",
+	"term": "Direction artistique",
+	"definition": "Processus de conception et supervision de l’aspect visuel d’un projet."
   },
   {
-    "id": "23",
-    "terme": "E-learning",
-    "definition": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs."
+	"id": "23",
+	"term": "E-learning",
+	"definition": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs."
   },
   {
-    "id": "24",
-    "terme": "Enregistrements audio et vidéo",
-    "definition": "Supports multimédias enrichissant les cours et démonstrations."
+	"id": "24",
+	"term": "Enregistrements audio et vidéo",
+	"definition": "Supports multimédias enrichissant les cours et démonstrations."
   },
   {
-    "id": "25",
-    "terme": "Excel de ressources graphiques (storyboard)",
-    "definition": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard."
+	"id": "25",
+	"term": "Excel de ressources graphiques (storyboard)",
+	"definition": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard."
   },
   {
-    "id": "26",
-    "terme": "Évaluation formative",
-    "definition": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation."
+	"id": "26",
+	"term": "Évaluation formative",
+	"definition": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation."
   },
   {
-    "id": "27",
-    "terme": "Évaluation sommative (finale)",
-    "definition": "Évaluation en fin de programme pour valider les compétences acquises."
+	"id": "27",
+	"term": "Évaluation sommative (finale)",
+	"definition": "Évaluation en fin de programme pour valider les compétences acquises."
   },
   {
-    "id": "28",
-    "terme": "Fiche d’aspects techniques",
-    "definition": "Document listant les contraintes et spécifications techniques d’un projet."
+	"id": "28",
+	"term": "Fiche d’aspects techniques",
+	"definition": "Document listant les contraintes et spécifications techniques d’un projet."
   },
   {
-    "id": "29",
-    "terme": "Fiche de sonorisation",
-    "definition": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié."
+	"id": "29",
+	"term": "Fiche de sonorisation",
+	"definition": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié."
   },
   {
-    "id": "30",
-    "terme": "Fiche ID projets",
-    "definition": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales."
+	"id": "30",
+	"term": "Fiche ID projets",
+	"definition": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales."
   },
   {
-    "id": "31",
-    "terme": "Formation en ligne",
-    "definition": "Formation dispensée via Internet, permettant aux apprenants d’acquérir des compétences à distance."
+	"id": "31",
+	"term": "Formation en ligne",
+	"definition": "Formation dispensée via Internet, permettant aux apprenants d’acquérir des compétences à distance."
   },
   {
-    "id": "32",
-    "terme": "Formation mixte",
-    "definition": "Approche combinant des modules de formation en ligne et des sessions en présentiel."
+	"id": "32",
+	"term": "Formation mixte",
+	"definition": "Approche combinant des modules de formation en ligne et des sessions en présentiel."
   },
   {
-    "id": "33",
-    "terme": "Formation synchrone",
-    "definition": "Formation en temps réel où les apprenants et l’instructeur interagissent en direct, souvent via une plateforme de visioconférence."
+	"id": "33",
+	"term": "Formation synchrone",
+	"definition": "Formation en temps réel où les apprenants et l’instructeur interagissent en direct, souvent via une plateforme de visioconférence."
   },
   {
-    "id": "34",
-    "terme": "Formation asynchrone",
-    "definition": "Formation permettant aux apprenants de suivre des modules à leur propre rythme sans interaction en temps réel avec l'instructeur."
+	"id": "34",
+	"term": "Formation asynchrone",
+	"definition": "Formation permettant aux apprenants de suivre des modules à leur propre rythme sans interaction en temps réel avec l'instructeur."
   },
   {
-    "id": "35",
-    "terme": "H5P",
-    "definition": "Outil interactif open-source permettant de créer du contenu éducatif interactif, comme des quiz, vidéos et jeux."
+	"id": "35",
+	"term": "H5P",
+	"definition": "Outil interactif open-source permettant de créer du contenu éducatif interactif, comme des quiz, vidéos et jeux."
   },
   {
-    "id": "36",
-    "terme": "Instructional Design",
-    "definition": "Discipline qui consiste à concevoir des programmes de formation efficaces en fonction des besoins des apprenants."
+	"id": "36",
+	"term": "Instructional Design",
+	"definition": "Discipline qui consiste à concevoir des programmes de formation efficaces en fonction des besoins des apprenants."
   },
   {
-    "id": "37",
-    "terme": "LMS (Learning Management System)",
-    "definition": "Système de gestion de l’apprentissage permettant de distribuer, suivre et évaluer des formations en ligne."
+	"id": "37",
+	"term": "LMS (Learning Management System)",
+	"definition": "Système de gestion de l’apprentissage permettant de distribuer, suivre et évaluer des formations en ligne."
   },
   {
-    "id": "38",
-    "terme": "Module e-learning",
-    "definition": "Unité de formation en ligne, généralement constituée de plusieurs écrans ou sections, visant à transmettre des connaissances spécifiques."
+	"id": "38",
+	"term": "Module e-learning",
+	"definition": "Unité de formation en ligne, généralement constituée de plusieurs écrans ou sections, visant à transmettre des connaissances spécifiques."
   },
   {
-    "id": "39",
-    "terme": "Scénarisation pédagogique",
-    "definition": "Processus de planification détaillée du contenu et des activités pédagogiques dans le cadre de la conception d'un module de formation."
+	"id": "39",
+	"term": "Scénarisation pédagogique",
+	"definition": "Processus de planification détaillée du contenu et des activités pédagogiques dans le cadre de la conception d'un module de formation."
   },
   {
-    "id": "40",
-    "terme": "Scénario interactif",
-    "definition": "Storytelling immersif qui intègre des choix et des interactions pour engager activement les apprenants."
+	"id": "40",
+	"term": "Scénario interactif",
+	"definition": "Storytelling immersif qui intègre des choix et des interactions pour engager activement les apprenants."
   },
   {
-    "id": "41",
-    "terme": "Storyboard",
-    "definition": "Représentation graphique des différentes étapes d'un projet ou d'une formation, permettant de visualiser le parcours d'apprentissage."
+	"id": "41",
+	"term": "Storyboard",
+	"definition": "Représentation graphique des différentes étapes d'un projet ou d'une formation, permettant de visualiser le parcours d'apprentissage."
   },
   {
-    "id": "42",
-    "terme": "Synchronous learning",
-    "definition": "Formation dans laquelle l’instructeur et les apprenants sont présents en même temps pour échanger en direct."
+	"id": "42",
+	"term": "Synchronous learning",
+	"definition": "Formation dans laquelle l’instructeur et les apprenants sont présents en même temps pour échanger en direct."
   },
   {
-    "id": "43",
-    "terme": "Template",
-    "definition": "Modèle prédéfini utilisé pour faciliter la création de contenus dans un format spécifique."
+	"id": "43",
+	"term": "Template",
+	"definition": "Modèle prédéfini utilisé pour faciliter la création de contenus dans un format spécifique."
   },
   {
-    "id": "44",
-    "terme": "VLE (Virtual Learning Environment)",
-    "definition": "Environnement d'apprentissage virtuel qui permet de gérer et d'interagir avec des contenus pédagogiques en ligne."
+	"id": "44",
+	"term": "VLE (Virtual Learning Environment)",
+	"definition": "Environnement d'apprentissage virtuel qui permet de gérer et d'interagir avec des contenus pédagogiques en ligne."
   },
   {
-    "id": "45",
-    "terme": "WBT (Web-Based Training)",
-    "definition": "Formation accessible en ligne via un navigateur web, souvent sur des plateformes e-learning."
+	"id": "45",
+	"term": "WBT (Web-Based Training)",
+	"definition": "Formation accessible en ligne via un navigateur web, souvent sur des plateformes e-learning."
   }
 ]
