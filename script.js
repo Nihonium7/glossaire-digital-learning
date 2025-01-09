@@ -65,7 +65,7 @@ fetch('glossaire.json')
       data.forEach(entry => {
         const distance = levenshtein(query.toLowerCase(), entry.term.toLowerCase());
         // Seuil de tolérance pour accepter la correspondance
-        if (distance <= 4) {  // Ajuster la tolérance selon tes besoins
+        if (distance <= 5) {  // Ajuster la tolérance selon tes besoins
           closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
         }
       });
