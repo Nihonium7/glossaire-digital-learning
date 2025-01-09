@@ -1,90 +1,227 @@
-{
-    "Accessibilité (critères RGAA)": "Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA).",
-    "Adobe Illustrator": "Logiciel de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies.",
-    "Adobe Photoshop": "Logiciel de retouche photo et de conception graphique pour modifier et créer des images numériques.",
-    "Adobe Premiere": "Logiciel de montage vidéo professionnel permettant de créer des vidéos éditées de qualité.",
-    "Analyse des besoins": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée.",
-    "Articulate Rise": "Outil de création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation.",
-    "Articulate Storyline": "Outil e-learning permettant de concevoir des modules interactifs et multimédias.",
-    "Blended learning": "Approche hybride combinant des sessions en ligne et des cours en présentiel.",
-    "Brainstorming": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème.",
-    "Brief de sonorisation": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet.",
-    "Brief environnement": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel.",
-    "Brief personnages": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs).",
-    "Canaux Teams": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal Teams par projet.",
-    "Charte éditoriale": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet.",
-    "Charte graphique": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente.",
-    "Classe virtuelle": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants.",
-    "Conception": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage.",
-    "Contenu pédagogique": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences.",
-    "Déclinaisons graphiques": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats.",
-    "Démo": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours.",
-    "Digitalisation": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne.",
-    "Direction artistique": "Processus de conception et supervision de l’aspect visuel d’un projet.",
-    "E-learning": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs.",
-    "Enregistrements audio et vidéo": "Supports multimédias enrichissant les cours et démonstrations.",
-    "Excel de ressources graphiques (storyboard)": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard.",
-    "Évaluation formative": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation.",
-    "Évaluation sommative (finale)": "Évaluation en fin de programme pour valider les compétences acquises.",
-    "Fiche d’aspects techniques": "Document listant les contraintes et spécifications techniques d’un projet.",
-    "Fiche de sonorisation": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié.",
-    "Fiche ID projets": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales.",
-    "Fiche projet": "Document de référence détaillant les informations clés sur un projet.",
-    "Fiche REX clients": "Retour d’expérience d’un client concernant un projet livré.",
-    "Formation à distance": "Apprentissage réalisé sans la présence physique de l’enseignant et de l’apprenant dans le même lieu.",
-    "Formation en blended learning": "Formation hybride combinant des séances en ligne et en présentiel.",
-    "Formation en ligne asynchrone": "Formation permettant aux apprenants de suivre le programme à leur propre rythme.",
-    "Formation en ligne synchrone": "Formation en temps réel réunissant apprenants et formateurs connectés simultanément.",
-    "Formation en présentiel": "Formation traditionnelle où enseignants et apprenants se retrouvent dans un même lieu physique.",
-    "Formation par apprentissage expérientiel": "La formation par apprentissage expérientiel implique que les apprenants apprennent en faisant des expériences pratiques, plutôt que par des explications théoriques.",
-    "Formation par jeu": "La formation par jeu implique que les apprenants apprennent en jouant à des jeux éducatifs.",
-    "Formation par projet": "La formation par projet implique que les apprenants travaillent sur des projets pratiques pour acquérir des compétences et des connaissances.",
-    "Formation par simulation": "La formation par simulation implique que les apprenants apprennent en simulant des situations réelles.",
-    "Formation par résolution de problèmes": "La formation par résolution de problèmes implique que les apprenants travaillent sur des problèmes pratiques pour acquérir des compétences et des connaissances.",
-    "Gamification": "Intégration d’éléments de jeu dans un cours pour stimuler la motivation et l’engagement des apprenants.",
-    "Graphisme 2D": "Ensemble d’éléments graphiques réalisés en 2 dimensions sur des logiciels spécifiques (Adobe Photoshop, Adobe Indesign, Adobe Illustrator, autres ?).",
-    "Graphisme 3D": "Ensemble d’éléments graphiques réalisés en 3 dimensions sur des logiciels spécifiques (Unreal Engine, autres ?).",
-    "Interactivité": "Caractéristique d’un contenu permettant une interaction entre l’apprenant et les éléments pédagogiques.",
-    "Lien de review interne": "Lien html issu d’Articulate Storyline afin de procéder aux étapes de recettages interne par le LD, et au recettage technique, par le directeur technique.",
-    "Lien de review clients": "Lien html issu d’Articulate Storyline qui permet aux clients de visualiser le module e-learning et de soumettre leurs demandes de corrections.",
-    "LMS (Learning Management System)": "Système de gestion de l'apprentissage permettant de créer, suivre et gérer des cours en ligne.",
-    "Maquette graphique (propositions de Direction Artistique)": "Représentation visuelle de l’identité visuelle d’un projet, incluant les choix de couleurs, typographies et illustrations.",
-    "Microlearning": "Méthode d’apprentissage en petites séquences pour faciliter la compréhension et la rétention.",
-    "MOOC (Massive Open Online Course)": "Cours en ligne accessible à tous, souvent gratuit et regroupant un large public.",
-    "Motion design": "Conception de contenus animés pour présenter des idées ou produits de manière dynamique.",
-    "Médias interactifs": "Supports numériques engageants incluant quiz, jeux, simulations et vidéos interactives.",
-    "Médias pédagogiques": "Supports audiovisuels et visuels utilisés pour transmettre des connaissances efficacement.",
-    "Modules de formation mobiles": "Les modules de formation mobiles sont conçus pour être consultés sur des appareils mobiles tels que les smartphones et les tablettes.",
-    "Objectifs pédagogiques": "Descriptions précises des compétences et connaissances visées par une formation.",
-    "Onboarding logiciel": "Processus d’intégration pour accompagner les utilisateurs dans la prise en main d’un logiciel.",
-    "Planification": "Organisation du contenu, des méthodes et des supports pour structurer un programme d’apprentissage.",
-    "Plateforme d'apprentissage": "Une plateforme d'apprentissage est un système qui permet aux enseignants et aux formateurs de créer, de gérer et de suivre des cours en ligne.",
-    "Podcasts": "Contenus audio éducatifs pour approfondir des sujets spécifiques.",
-    "Proposition technico-pédagogique (propale)": "Document détaillant l’approche technique et pédagogique d’un projet.",
-    "PV de livraison (UGAP)": "Procès Verbal de livraison, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi. Transmission d’un questionnaire de satisfaction en lien avec la contractualisation UGAP.",
-    "PV de livraison (sans UGAP)": "Procès Verbal de livraison – non lié à l’UGAP, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi.",
-    "Réalité augmentée (AR)": "Technologie enrichissant un environnement réel avec des éléments numériques.",
-    "Réalité virtuelle (VR)": "Technologie immersant les utilisateurs dans un environnement entièrement virtuel.",
-    "Recettage technique": "Étape de production dans laquelle le directeur technique relit le module et contrôle sa bonne fonctionnalité. Édition d’un document de recettage technique à destination de la LD/ prod.",
-    "Rétroplanning": "Planification détaillée d’un projet à partir de la date de livraison en remontant vers le présent.",
-    "Réunion de cadrage": "Rencontre initiale pour fixer les objectifs, contraintes et attentes d’un projet.",
-    "Réunion de lancement": "Première rencontre officielle pour démarrer un projet et informer les parties prenantes.",
-    "SCORM (Sharable Content Object Reference Model)": "Norme assurant l’interopérabilité des contenus e-learning entre différents LMS.",
-    "SCORM Cloud": "Plateforme permettant de tester et d’évaluer la compatibilité des modules SCORM.",
-    "Scénarisation": "Conception des scénarios pédagogiques pour structurer un cours en ligne.",
-    "Script pédagogique": "Document détaillant le contenu, les dialogues et les interactions d’un module e-learning.",
-    "Serious games": "Les jeux sérieux sont des jeux qui ont été conçus pour enseigner des compétences et des connaissances spécifiques tout en divertissant les joueurs.",
-    "Sonorisation (étape projet)": "Phase du projet au cours de laquelle le studio de sonorisation est sollicité afin de faire enregistrer l’ensemble des voix off, par des comédiens professionnels.",
-    "SPOC": "Small Private Online Course. Il s'agit d'un cours en ligne similaire à un MOOC, mais avec un nombre limité de participants.",
-    "Storyboard": "Un storyboard est un plan détaillé de chaque diapositive ou page du cours en ligne, avec des notes sur le texte, les images et les interactions prévues.",
-    "Synopsis": "Document de travail rédigé par la LD, compilant l’ensemble des contenus des clients, répartis dans des séquences/chapitres, correspondant à des objectifs pédagogiques. Des premières idées de traitements pédagogiques seront mentionnées dans ce document.",
-    "Tutoriel": "Guide ou instructions pour aider à apprendre ou utiliser un sujet ou un logiciel.",
-    "UGAP": "Centrale d'achat publique en France qui permet aux administrations publiques et aux établissements publics de réaliser des achats de manière centralisée, pour bénéficier de conditions avantageuses (tarifs réduits, simplification des démarches administratives).",
-    "UI Design": "Conception des éléments visuels (boutons de navigation entre autres) avec lesquels l'utilisateur interagit sur un produit numérique.",
-    "UX Design": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle.",
-    "Vidéos éducatives": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des concepts complexes ou démontrer des procédures pratiques.",
-    "Version montée alpha": "Première version éditée par le monteur, au format lien de review web, afin d’apprécier l’ensemble des éléments validés en phase de storyboard, mis en forme et animés dans le logiciel de montage Storyline.",
-    "Version montée bêta": "Seconde version éditée par le monteur, dans laquelle les commentaires des clients auront été appliqués.",
-    "Webinaires": "Les webinaires sont des événements en ligne en direct où l'enseignant et les apprenants peuvent interagir en temps réel.",
-    "Wrike": "Outil de gestion de projet comprenant les plannings, plans de charge de l’équipe ainsi que toutes les informations nécessaires à la rentabilité du projet (alloués, efforts…)."
-}
+[
+  {
+    "id": "1",
+    "terme": "Accessibilité (critères RGAA)",
+    "definition": "Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA)."
+  },
+  {
+    "id": "2",
+    "terme": "Adobe Illustrator",
+    "definition": "Logiciel de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies."
+  },
+  {
+    "id": "3",
+    "terme": "Adobe Photoshop",
+    "definition": "Logiciel de retouche photo et de conception graphique pour modifier et créer des images numériques."
+  },
+  {
+    "id": "4",
+    "terme": "Adobe Premiere",
+    "definition": "Logiciel de montage vidéo professionnel permettant de créer des vidéos éditées de qualité."
+  },
+  {
+    "id": "5",
+    "terme": "Analyse des besoins",
+    "definition": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée."
+  },
+  {
+    "id": "6",
+    "terme": "Articulate Rise",
+    "definition": "Outil de création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation."
+  },
+  {
+    "id": "7",
+    "terme": "Articulate Storyline",
+    "definition": "Outil e-learning permettant de concevoir des modules interactifs et multimédias."
+  },
+  {
+    "id": "8",
+    "terme": "Blended learning",
+    "definition": "Approche hybride combinant des sessions en ligne et des cours en présentiel."
+  },
+  {
+    "id": "9",
+    "terme": "Brainstorming",
+    "definition": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème."
+  },
+  {
+    "id": "10",
+    "terme": "Brief de sonorisation",
+    "definition": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet."
+  },
+  {
+    "id": "11",
+    "terme": "Brief environnement",
+    "definition": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel."
+  },
+  {
+    "id": "12",
+    "terme": "Brief personnages",
+    "definition": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs)."
+  },
+  {
+    "id": "13",
+    "terme": "Canaux Teams",
+    "definition": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal Teams par projet."
+  },
+  {
+    "id": "14",
+    "terme": "Charte éditoriale",
+    "definition": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet."
+  },
+  {
+    "id": "15",
+    "terme": "Charte graphique",
+    "definition": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente."
+  },
+  {
+    "id": "16",
+    "terme": "Classe virtuelle",
+    "definition": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants."
+  },
+  {
+    "id": "17",
+    "terme": "Conception",
+    "definition": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage."
+  },
+  {
+    "id": "18",
+    "terme": "Contenu pédagogique",
+    "definition": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences."
+  },
+  {
+    "id": "19",
+    "terme": "Déclinaisons graphiques",
+    "definition": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats."
+  },
+  {
+    "id": "20",
+    "terme": "Démo",
+    "definition": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours."
+  },
+  {
+    "id": "21",
+    "terme": "Digitalisation",
+    "definition": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne."
+  },
+  {
+    "id": "22",
+    "terme": "Direction artistique",
+    "definition": "Processus de conception et supervision de l’aspect visuel d’un projet."
+  },
+  {
+    "id": "23",
+    "terme": "E-learning",
+    "definition": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs."
+  },
+  {
+    "id": "24",
+    "terme": "Enregistrements audio et vidéo",
+    "definition": "Supports multimédias enrichissant les cours et démonstrations."
+  },
+  {
+    "id": "25",
+    "terme": "Excel de ressources graphiques (storyboard)",
+    "definition": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard."
+  },
+  {
+    "id": "26",
+    "terme": "Évaluation formative",
+    "definition": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation."
+  },
+  {
+    "id": "27",
+    "terme": "Évaluation sommative (finale)",
+    "definition": "Évaluation en fin de programme pour valider les compétences acquises."
+  },
+  {
+    "id": "28",
+    "terme": "Fiche d’aspects techniques",
+    "definition": "Document listant les contraintes et spécifications techniques d’un projet."
+  },
+  {
+    "id": "29",
+    "terme": "Fiche de sonorisation",
+    "definition": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié."
+  },
+  {
+    "id": "30",
+    "terme": "Fiche ID projets",
+    "definition": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales."
+  },
+  {
+    "id": "31",
+    "terme": "Formation en ligne",
+    "definition": "Formation dispensée via Internet, permettant aux apprenants d’acquérir des compétences à distance."
+  },
+  {
+    "id": "32",
+    "terme": "Formation mixte",
+    "definition": "Approche combinant des modules de formation en ligne et des sessions en présentiel."
+  },
+  {
+    "id": "33",
+    "terme": "Formation synchrone",
+    "definition": "Formation en temps réel où les apprenants et l’instructeur interagissent en direct, souvent via une plateforme de visioconférence."
+  },
+  {
+    "id": "34",
+    "terme": "Formation asynchrone",
+    "definition": "Formation permettant aux apprenants de suivre des modules à leur propre rythme sans interaction en temps réel avec l'instructeur."
+  },
+  {
+    "id": "35",
+    "terme": "H5P",
+    "definition": "Outil interactif open-source permettant de créer du contenu éducatif interactif, comme des quiz, vidéos et jeux."
+  },
+  {
+    "id": "36",
+    "terme": "Instructional Design",
+    "definition": "Discipline qui consiste à concevoir des programmes de formation efficaces en fonction des besoins des apprenants."
+  },
+  {
+    "id": "37",
+    "terme": "LMS (Learning Management System)",
+    "definition": "Système de gestion de l’apprentissage permettant de distribuer, suivre et évaluer des formations en ligne."
+  },
+  {
+    "id": "38",
+    "terme": "Module e-learning",
+    "definition": "Unité de formation en ligne, généralement constituée de plusieurs écrans ou sections, visant à transmettre des connaissances spécifiques."
+  },
+  {
+    "id": "39",
+    "terme": "Scénarisation pédagogique",
+    "definition": "Processus de planification détaillée du contenu et des activités pédagogiques dans le cadre de la conception d'un module de formation."
+  },
+  {
+    "id": "40",
+    "terme": "Scénario interactif",
+    "definition": "Storytelling immersif qui intègre des choix et des interactions pour engager activement les apprenants."
+  },
+  {
+    "id": "41",
+    "terme": "Storyboard",
+    "definition": "Représentation graphique des différentes étapes d'un projet ou d'une formation, permettant de visualiser le parcours d'apprentissage."
+  },
+  {
+    "id": "42",
+    "terme": "Synchronous learning",
+    "definition": "Formation dans laquelle l’instructeur et les apprenants sont présents en même temps pour échanger en direct."
+  },
+  {
+    "id": "43",
+    "terme": "Template",
+    "definition": "Modèle prédéfini utilisé pour faciliter la création de contenus dans un format spécifique."
+  },
+  {
+    "id": "44",
+    "terme": "VLE (Virtual Learning Environment)",
+    "definition": "Environnement d'apprentissage virtuel qui permet de gérer et d'interagir avec des contenus pédagogiques en ligne."
+  },
+  {
+    "id": "45",
+    "terme": "WBT (Web-Based Training)",
+    "definition": "Formation accessible en ligne via un navigateur web, souvent sur des plateformes e-learning."
+  }
+]
