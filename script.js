@@ -38,6 +38,12 @@ fetch('glossaire.json')
       return tmp[b.length][a.length];
     }
 
+    // Fonction pour vérifier si un terme contient une correspondance partielle
+    function isMatch(query, term) {
+      const words = term.toLowerCase().split(' '); // Séparer le terme en mots
+      return words.some(word => levenshtein(query.toLowerCase(), word) <= 3); // Vérifier la correspondance dans chaque mot
+    }
+
     // Ajouter un événement sur le champ de recherche
     const searchInput = document.getElementById('search');
     const resultsDiv = document.getElementById('results');
@@ -55,21 +61,24 @@ fetch('glossaire.json')
         return;
       }
 
-      // Si la recherche a 3 caractères ou plus, trouver les termes les plus proches via Levenshtein
+      // Trouver les termes les plus proches via Levenshtein
       const closestMatches = [];
       const maxDistance = Math.max(3, query.length);  // Ajuste le seuil basé sur la longueur de la recherche
 
       data.forEach(entry => {
-        const distance = levenshtein(query.toLowerCase(), entry.term.toLowerCase());
-
-        // Ajouter le match si la distance est inférieure ou égale à la distance max
-        if (distance <= maxDistance) {
-          closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
+        // Vérifie si le terme ou l'un de ses mots correspond à la recherche
+        if (isMatch(query, entry.term)) {
+          closestMatches.push({ term: entry.term, definition: entry.definition });
         }
       });
 
       // Trier les résultats pour avoir le terme le plus proche en premier
-      closestMatches.sort((a, b) => a.distance - b.distance);
+      closestMatches.sort((a, b) => {
+        // Trier par la distance de Levenshtein pour le premier mot
+        const firstTermDistance = levenshtein(query.toLowerCase(), a.term.split(' ')[0].toLowerCase());
+        const secondTermDistance = levenshtein(query.toLowerCase(), b.term.split(' ')[0].toLowerCase());
+        return firstTermDistance - secondTermDistance;
+      });
 
       // Affichage des résultats
       resultsDiv.innerHTML = '';  // Réinitialiser les résultats
