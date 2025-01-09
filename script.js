@@ -1,12 +1,23 @@
 fetch('glossaire.json')
   .then(response => response.json())  // Convertit la réponse en JSON
   .then(data => {
-    console.log(data);  // Ajoute cette ligne pour inspecter les données récupérées
+    console.log(data);  // Affiche les données pour vérifier la structure
 
     // Vérifie la structure de `data`
     if (!Array.isArray(data)) {
       console.error('Les données ne sont pas un tableau.');
       return;
+    }
+
+    // Fonction pour afficher tous les termes du glossaire
+    function displayAllTerms() {
+      const resultsDiv = document.getElementById('results');
+      resultsDiv.innerHTML = '';  // Réinitialiser les résultats
+      data.forEach(entry => {
+        const termDiv = document.createElement('div');
+        termDiv.innerHTML = `<h3>${entry.term}</h3><p>${entry.definition}</p>`;
+        resultsDiv.appendChild(termDiv);
+      });
     }
 
     // Fonction pour calculer la distance de Levenshtein
@@ -31,17 +42,7 @@ fetch('glossaire.json')
     const searchInput = document.getElementById('search');
     const resultsDiv = document.getElementById('results');
 
-    // Fonction pour afficher tous les termes du glossaire
-    function displayAllTerms() {
-      resultsDiv.innerHTML = '';  // Réinitialiser les résultats
-      data.forEach(entry => {
-        const termDiv = document.createElement('div');
-        termDiv.innerHTML = `<h3>${entry.term}</h3><p>${entry.definition}</p>`;
-        resultsDiv.appendChild(termDiv);
-      });
-    }
-
-    // Afficher tous les termes au départ
+    // Afficher tous les termes par défaut
     displayAllTerms();
 
     // Ajouter un événement sur la barre de recherche
