@@ -240,99 +240,71 @@
         "définition": "Une plateforme d'apprentissage est un système qui permet aux enseignants et aux formateurs de créer, de gérer et de suivre des cours en ligne."
     },
     {
-        "term": "Podcasts",
-        "définition": "Contenus audio éducatifs pour approfondir des sujets spécifiques."
+        "term": "Plan de formation",
+        "définition": "Document qui décrit l’ensemble des actions de formation prévues dans un projet éducatif."
     },
     {
-        "term": "Proposition technico-pédagogique (propale)",
-        "définition": "Document détaillant l’approche technique et pédagogique d’un projet."
+        "term": "Portfolio",
+        "définition": "Collection de travaux ou réalisations permettant de démontrer des compétences ou un parcours professionnel."
     },
     {
-        "term": "PV de livraison (UGAP)",
-        "définition": "Procès Verbal de livraison, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi. Transmission d’un questionnaire de satisfaction en lien avec la contractualisation UGAP."
+        "term": "Quiz",
+        "définition": "Activité formative permettant d’évaluer les connaissances des apprenants de manière ludique et interactive."
     },
     {
-        "term": "PV de livraison (sans UGAP)",
-        "définition": "Procès Verbal de livraison – non lié à l’UGAP, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi."
+        "term": "Référentiel de compétences",
+        "définition": "Document qui décrit les compétences requises pour un poste ou une fonction, et qui sert de base à la formation."
     },
     {
-        "term": "Réalité augmentée (AR)",
-        "définition": "Technologie enrichissant un environnement réel avec des éléments numériques."
+        "term": "Ressources pédagogiques",
+        "définition": "Supports divers (textes, vidéos, simulations, etc.) utilisés pour faciliter l'apprentissage."
     },
     {
-        "term": "Réalité virtuelle (VR)",
-        "définition": "Technologie immersant les utilisateurs dans un environnement entièrement virtuel."
-    },
-    {
-        "term": "Recettage technique",
-        "définition": "Étape de production dans laquelle le directeur technique relit le module et contrôle sa bonne fonctionnalité. Edition d’un document de recettage technique à destination de la LD/ prod."
-    },
-    {
-        "term": "Rétroplanning",
-        "définition": "Planification détaillée d’un projet à partir de la date de livraison en remontant vers le présent."
-    },
-    {
-        "term": "Réunion de cadrage",
-        "définition": "Rencontre initiale pour fixer les objectifs, contraintes et attentes d’un projet."
-    },
-    {
-        "term": "Réunion de lancement",
-        "définition": "Première rencontre officielle pour démarrer un projet et informer les parties prenantes."
-    },
-    {
-        "term": "SCORM (Sharable Content Object Reference Model)",
-        "définition": "Norme assurant l’interopérabilité des contenus e-learning entre différents LMS."
-    },
-    {
-        "term": "SCORM Cloud",
-        "définition": "Plateforme permettant de tester et d’évaluer la compatibilité des modules SCORM."
-    },
-    {
-        "term": "Scénarisation",
-        "définition": "Conception des scénarios pédagogiques pour structurer un cours en ligne."
-    },
-    {
-        "term": "Script pédagogique",
-        "définition": "Document détaillant le contenu, les dialogues et les interactions d’un module e-learning."
-    },
-    {
-        "term": "Serious games",
-        "définition": "Les jeux sérieux sont des jeux qui ont été conçus pour enseigner des compétences et des connaissances spécifiques tout en divertissant les joueurs."
-    },
-    {
-        "term": "Sonorisation (étape projet)",
-        "définition": "Phase du projet au cours de laquelle le studio de sonorisation est sollicité afin de faire enregistrer l’ensemble des voix off, par des comédiens professionnels."
-    },
-    {
-        "term": "SPOC",
-        "définition": "Small Private Online Course. Il s'agit d'un cours en ligne similaire à un MOOC, mais avec un nombre limité de participants."
+        "term": "Serious game",
+        "définition": "Jeu conçu à des fins pédagogiques, permettant de développer des compétences en simulant des situations réelles."
     },
     {
         "term": "Storyboard",
-        "définition": "Un storyboard est un plan détaillé de chaque diapositive ou page du cours en ligne, avec des notes sur le texte, les images et les interactions prévues."
+        "définition": "Représentation visuelle des différentes étapes d’un module e-learning, incluant les interactions et le contenu multimédia."
     },
     {
-        "term": "Synopsis",
-        "définition": "Document de travail rédigé par la LD, compilant l’ensemble des contenus des clients, répartis dans des séquences/chapitres, correspondant à des objectifs pédagogiques. Des premières idées de traitements pédagogiques seront mentionnées dans ce document."
+        "term": "Simulation",
+        "définition": "Représentation virtuelle d’une situation réelle permettant aux apprenants de pratiquer des compétences dans un environnement sécurisé."
     },
     {
-        "term": "Tutoriel",
-        "définition": "Guide ou instructions pour aider à apprendre ou utiliser un sujet ou un logiciel."
+        "term": "Système de gestion de contenu (CMS)",
+        "définition": "Logiciel permettant de créer, gérer et modifier le contenu d’un site ou d’une plateforme e-learning."
     },
     {
-        "term": "UGAP",
-        "définition": "Centrale d'achat publique en France qui permet aux administrations publiques et aux établissements publics de réaliser des achats de manière centralisée, pour bénéficier de conditions avantageuses (tarifs réduits, simplification des démarches administratives)."
+        "term": "Synthèse",
+        "définition": "Résumé concis des informations clés issues d’une formation ou d’un projet."
     },
     {
-        "term": "UI Design",
-        "définition": "Conception des éléments visuels (boutons de navigation entre autres) avec lesquels l'utilisateur interagit sur un produit numérique."
+        "term": "Tableau de bord",
+        "définition": "Outil permettant de visualiser et suivre l’avancement des activités de formation ou des projets."
     },
     {
-        "term": "UX Design",
-        "definition": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle."
+        "term": "Téléformation",
+        "définition": "Formation réalisée à distance, souvent via des plateformes en ligne ou des logiciels de vidéoconférence."
     },
     {
-        "term": "Vidéos éducatives",
-        "definition": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des ou démontrer des procédures pratiques.\n\nVersion montée alpha : Première version éditée par le monteur, au format lien de review web, afin d’apprécier l’ensemble des éléments validés en phase de storyboard, mis en forme et animés dans le logiciel de montage Storyline.\n\nVersion montée bêta : Seconde version éditée par le monteur, dans laquelle les commentaires des clients auront été appliqués.\n\nWebinaires : Les webinaires sont des événements en ligne en direct où l'enseignant et les apprenants peuvent interagir en temps réel.\n\nWrike : Outil de gestion de projet comprenant les plannings, plans de charge de l’équipe ainsi que toutes les informations nécessaires à la rentabilité du projet (alloués, efforts…)."
+        "term": "Test de validation",
+        "définition": "Évaluation utilisée pour vérifier que les objectifs pédagogiques ont été atteints à la fin d’un module ou d’un programme."
+    },
+    {
+        "term": "TICE (Technologies de l'information et de la communication pour l'enseignement)",
+        "définition": "Ensemble des outils numériques utilisés pour faciliter l’enseignement et l’apprentissage."
+    },
+    {
+        "term": "Vidéos pédagogiques",
+        "définition": "Vidéos créées dans un but éducatif, souvent utilisées pour expliquer un concept ou présenter une compétence."
+    },
+    {
+        "term": "Webinaire",
+        "définition": "Séminaire en ligne permettant de diffuser des contenus en temps réel tout en permettant l’interaction avec le public."
+    },
+    {
+        "term": "Workshops",
+        "définition": "Ateliers interactifs où les participants apprennent de manière pratique, souvent par la résolution de problèmes ou la création collective."
     }
 ]
