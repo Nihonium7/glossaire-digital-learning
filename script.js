@@ -1,6 +1,8 @@
 fetch('glossaire.json')
   .then(response => response.json())  // Convertit la réponse en JSON
   .then(data => {
+    console.log(data);  // Ajoute cette ligne pour inspecter les données récupérées
+
     // Vérifie la structure de `data`
     if (!Array.isArray(data)) {
       console.error('Les données ne sont pas un tableau.');
@@ -15,7 +17,6 @@ fetch('glossaire.json')
 
       // Ajouter chaque entrée dans l'index Lunr
       data.forEach((entry) => {
-        // Vérifie que chaque entrée a bien les bonnes propriétés
         if (entry.term && entry.definition) {
           this.add({
             term: entry.term,
