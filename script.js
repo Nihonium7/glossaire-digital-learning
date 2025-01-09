@@ -41,7 +41,7 @@ fetch('glossaire.json')
     // Fonction pour vérifier la correspondance avec Levenshtein (y compris les fautes de frappe)
     function isMatch(query, term) {
       const distance = levenshtein(query.toLowerCase(), term.toLowerCase());
-      return distance <= 3;  // Ajuster le seuil de tolérance selon les besoins
+      return distance <= 5;  // Ajuster le seuil de tolérance selon les besoins
     }
 
     // Ajouter un événement sur le champ de recherche
