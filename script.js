@@ -1,7 +1,7 @@
 fetch('glossaire.json')
-  .then(response => response.json())  // Convertit la réponse en JSON
+  .then(response => response.json()) // Convertit la réponse en JSON
   .then(data => {
-    console.log(data);  // Affiche les données pour vérifier la structure
+    console.log(data); // Affiche les données pour vérifier la structure
 
     // Vérifie la structure de `data`
     if (!Array.isArray(data)) {
@@ -12,7 +12,7 @@ fetch('glossaire.json')
     // Fonction pour afficher tous les termes du glossaire
     function displayAllTerms() {
       const resultsDiv = document.getElementById('results');
-      resultsDiv.innerHTML = '';  // Réinitialiser les résultats
+      resultsDiv.innerHTML = ''; // Réinitialiser les résultats
       data.forEach(entry => {
         const termDiv = document.createElement('div');
         termDiv.innerHTML = `<h3>${entry.term}</h3><p>${entry.definition}</p>`;
@@ -38,10 +38,11 @@ fetch('glossaire.json')
       return tmp[b.length][a.length];
     }
 
-    // Fonction pour vérifier la correspondance avec Levenshtein (y compris les fautes de frappe)
-    function isMatch(query, term) {
-      const distance = levenshtein(query.toLowerCase(), term.toLowerCase());
-      return distance <= 5;  // Ajuster le seuil de tolérance selon les besoins
+    // Fonction pour vérifier la correspondance via regex
+    function matchByRegex(query, term) {
+      const regexPattern = query.replace(/\*/g, '.*'); // Convertir les jokers (*) en regex
+      const regex = new RegExp(`^${regexPattern}`, 'i'); // Correspondance insensible à la casse
+      return regex.test(term);
     }
 
     // Ajouter un événement sur le champ de recherche
@@ -56,37 +57,37 @@ fetch('glossaire.json')
       const query = searchInput.value.trim();
 
       // Si la recherche est vide, réafficher tous les termes
-      if (query.length === 0) {
+      if (query === '') {
         displayAllTerms();
         return;
       }
 
-      // Trouver les termes les plus proches via Levenshtein
-      const closestMatches = [];
-      const maxDistance = Math.max(3, query.length);  // Ajuste le seuil basé sur la longueur de la recherche
+      // Trouver les termes correspondant via regex
+      let filteredMatches = [];
+      try {
+        filteredMatches = data.filter(entry => matchByRegex(query, entry.term));
+      } catch (error) {
+        console.error('Expression régulière invalide:', error);
+        resultsDiv.innerHTML = '<p>Erreur dans la recherche.</p>';
+        return;
+      }
 
-      data.forEach(entry => {
-        // Vérifie si le terme contient une correspondance (même partielle) avec la recherche
-        if (isMatch(query, entry.term)) {
-          closestMatches.push({ term: entry.term, definition: entry.definition });
-        }
-      });
+      // Appliquer Levenshtein sur les résultats filtrés
+      const closestMatches = filteredMatches.map(entry => ({
+        term: entry.term,
+        definition: entry.definition,
+        distance: levenshtein(query.toLowerCase(), entry.term.toLowerCase())
+      }));
 
-      // Trier les résultats pour avoir le terme le plus proche en premier
-      closestMatches.sort((a, b) => {
-        // Trier par la distance de Levenshtein pour le terme complet
-        const firstTermDistance = levenshtein(query.toLowerCase(), a.term.toLowerCase());
-        const secondTermDistance = levenshtein(query.toLowerCase(), b.term.toLowerCase());
-        return firstTermDistance - secondTermDistance;
-      });
+      // Trier les résultats par distance de Levenshtein
+      closestMatches.sort((a, b) => a.distance - b.distance);
 
       // Affichage des résultats
-      resultsDiv.innerHTML = '';  // Réinitialiser les résultats
+      resultsDiv.innerHTML = ''; // Réinitialiser les résultats
       if (closestMatches.length === 0) {
         resultsDiv.innerHTML = '<p>Aucun résultat trouvé.</p>';
       }
 
-      // Affichage des résultats les plus proches
       closestMatches.forEach(match => {
         const termDiv = document.createElement('div');
         termDiv.innerHTML = `<h3>${match.term}</h3><p>${match.definition}</p>`;
