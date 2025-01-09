@@ -329,8 +329,10 @@
     },
     {
         "term": "UX Design",
-        "définition": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle."
+        "definition": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle."
     },
     {
         "term": "Vidéos éducatives",
-        "définition": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des
+        "definition": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des ou démontrer des procédures pratiques.\n\nVersion montée alpha : Première version éditée par le monteur, au format lien de review web, afin d’apprécier l’ensemble des éléments validés en phase de storyboard, mis en forme et animés dans le logiciel de montage Storyline.\n\nVersion montée bêta : Seconde version éditée par le monteur, dans laquelle les commentaires des clients auront été appliqués.\n\nWebinaires : Les webinaires sont des événements en ligne en direct où l'enseignant et les apprenants peuvent interagir en temps réel.\n\nWrike : Outil de gestion de projet comprenant les plannings, plans de charge de l’équipe ainsi que toutes les informations nécessaires à la rentabilité du projet (alloués, efforts…)."
+    }
+]
