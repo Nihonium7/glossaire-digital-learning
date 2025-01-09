@@ -42,7 +42,7 @@ fetch('glossaire.json')
 
       // Trouver les termes les plus proches via Levenshtein
       const closestMatches = [];
-      const maxDistance = 3;  // Définir un seuil de tolérance (distance max avant d'abandonner)
+      const maxDistance = Math.max(3, query.length);  // Ajuste le seuil basé sur la longueur de la recherche
 
       data.forEach(entry => {
         const distance = levenshtein(query.toLowerCase(), entry.term.toLowerCase());
