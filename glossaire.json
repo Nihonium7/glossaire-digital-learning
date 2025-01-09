@@ -280,8 +280,8 @@
 		"definition": "Première rencontre officielle pour démarrer un projet et informer les parties prenantes."
 	},
 	{
-		"term": "SCORM (Sharable Content Object Reference Model)",
-		"definition": "Norme assurant l’interopérabilité des contenus e-learning entre différents LMS."
+		"term": "SCORM",
+		"definition": "Signifie 'Sharable Content Object Reference Model'. C'est une norme internationale pour la création de modules e-learning. Elle regroupe deux choses :\n - Le format du fichier à partager : c’est un fichier zip contenant tous les médias du module et respectant une certaine nomenclature. \n - Et le protocole d'échange entre le module et la plateforme LMS qui va héberger le module. Le SCORM permet d'échanger des informations avec la LMS pour les rémontées de score, le taux de progression dans le module, etc."
 	},
 	{
 		"term": "SCORM Cloud",
