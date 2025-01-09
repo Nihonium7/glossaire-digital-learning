@@ -38,10 +38,10 @@ fetch('glossaire.json')
       return tmp[b.length][a.length];
     }
 
-    // Fonction pour vérifier si un terme contient une correspondance partielle
+    // Fonction pour vérifier la correspondance avec Levenshtein (y compris les fautes de frappe)
     function isMatch(query, term) {
-      const words = term.toLowerCase().split(' '); // Séparer le terme en mots
-      return words.some(word => levenshtein(query.toLowerCase(), word) <= 3); // Vérifier la correspondance dans chaque mot
+      const distance = levenshtein(query.toLowerCase(), term.toLowerCase());
+      return distance <= 3;  // Ajuster le seuil de tolérance selon les besoins
     }
 
     // Ajouter un événement sur le champ de recherche
@@ -66,7 +66,7 @@ fetch('glossaire.json')
       const maxDistance = Math.max(3, query.length);  // Ajuste le seuil basé sur la longueur de la recherche
 
       data.forEach(entry => {
-        // Vérifie si le terme ou l'un de ses mots correspond à la recherche
+        // Vérifie si le terme contient une correspondance (même partielle) avec la recherche
         if (isMatch(query, entry.term)) {
           closestMatches.push({ term: entry.term, definition: entry.definition });
         }
@@ -74,9 +74,9 @@ fetch('glossaire.json')
 
       // Trier les résultats pour avoir le terme le plus proche en premier
       closestMatches.sort((a, b) => {
-        // Trier par la distance de Levenshtein pour le premier mot
-        const firstTermDistance = levenshtein(query.toLowerCase(), a.term.split(' ')[0].toLowerCase());
-        const secondTermDistance = levenshtein(query.toLowerCase(), b.term.split(' ')[0].toLowerCase());
+        // Trier par la distance de Levenshtein pour le terme complet
+        const firstTermDistance = levenshtein(query.toLowerCase(), a.term.toLowerCase());
+        const secondTermDistance = levenshtein(query.toLowerCase(), b.term.toLowerCase());
         return firstTermDistance - secondTermDistance;
       });
 
