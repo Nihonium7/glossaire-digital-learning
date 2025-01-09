@@ -3,7 +3,7 @@ fetch('glossaire.json')
   .then(data => {
     console.log(data);  // Affiche les données pour vérifier la structure
 
-    // Vérifie la structure de `data`
+    // Vérifie la structure de data
     if (!Array.isArray(data)) {
       console.error('Les données ne sont pas un tableau.');
       return;
@@ -15,7 +15,7 @@ fetch('glossaire.json')
       resultsDiv.innerHTML = '';  // Réinitialiser les résultats
       data.forEach(entry => {
         const termDiv = document.createElement('div');
-        termDiv.innerHTML = `<h3>${entry.term}</h3><p>${entry.definition}</p>`;
+        termDiv.innerHTML = <h3>${entry.term}</h3><p>${entry.definition}</p>;
         resultsDiv.appendChild(termDiv);
       });
     }
@@ -89,9 +89,9 @@ fetch('glossaire.json')
       // Affichage des résultats les plus proches
       closestMatches.forEach(match => {
         const termDiv = document.createElement('div');
-        termDiv.innerHTML = `<h3>${match.term}</h3><p>${match.definition}</p>`;
+        termDiv.innerHTML = <h3>${match.term}</h3><p>${match.definition}</p>;
         resultsDiv.appendChild(termDiv);
       });
     });
   })
-  .catch(error => console.error('Erreur de chargement du fichier JSON:', error));
+  .catch(error => console.error('Erreur de chargement du fichier JSON:', error)); 
