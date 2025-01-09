@@ -52,8 +52,10 @@ fetch('glossaire.json')
 
     searchInput.addEventListener('input', () => {
       const query = searchInput.value.trim();
-      if (!query) {
-        resultsDiv.innerHTML = '';
+
+      // Ne pas chercher si la requête est trop courte (par exemple, moins de 3 caractères)
+      if (query.length < 3) {
+        resultsDiv.innerHTML = '';  // Réinitialiser les résultats
         return;
       }
 
@@ -65,7 +67,7 @@ fetch('glossaire.json')
       data.forEach(entry => {
         const distance = levenshtein(query.toLowerCase(), entry.term.toLowerCase());
         // Seuil de tolérance pour accepter la correspondance
-        if (distance <= 5) {  // Ajuster la tolérance selon tes besoins
+        if (distance <= 3) {  // Ajuster la tolérance selon tes besoins
           closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
         }
       });
