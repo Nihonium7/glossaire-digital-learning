@@ -38,10 +38,13 @@ fetch('glossaire.json')
 
       // Afficher les résultats
       resultsDiv.innerHTML = '';  // Réinitialiser les résultats
+      const threshold = 3;  // Seuil de correspondance de Levenshtein
+
       results.forEach(result => {
         const match = data.find(item => item.term === result.ref);
-
-        if (match) {
+        
+        // Ajout de la logique de Levenshtein pour une correspondance partielle
+        if (match && levenshtein(query, match.term) <= threshold) {
           const termDiv = document.createElement('div');
           termDiv.innerHTML = `<h3>${match.term}</h3><p>${match.definition}</p>`;
           resultsDiv.appendChild(termDiv);
