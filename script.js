@@ -42,10 +42,15 @@ fetch('glossaire.json')
 
       // Trouver les termes les plus proches via Levenshtein
       const closestMatches = [];
+      const maxDistance = 3;  // Définir un seuil de tolérance (distance max avant d'abandonner)
+
       data.forEach(entry => {
         const distance = levenshtein(query.toLowerCase(), entry.term.toLowerCase());
-        // Si la distance est faible, on considère que c'est un bon match
-        closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
+
+        // Ajouter le match si la distance est inférieure ou égale à la distance max
+        if (distance <= maxDistance) {
+          closestMatches.push({ term: entry.term, definition: entry.definition, distance: distance });
+        }
       });
 
       // Trier les résultats pour avoir le terme le plus proche en premier
