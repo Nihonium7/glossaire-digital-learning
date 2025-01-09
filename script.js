@@ -42,20 +42,20 @@ fetch('glossaire.json')
     const searchInput = document.getElementById('search');
     const resultsDiv = document.getElementById('results');
 
-    // Afficher tous les termes par défaut
+    // Afficher tous les termes par défaut si la recherche est vide
     displayAllTerms();
 
     // Ajouter un événement sur la barre de recherche
     searchInput.addEventListener('input', () => {
       const query = searchInput.value.trim();
 
-      // Si la recherche est vide ou trop courte, afficher tous les termes
-      if (query.length < 3) {
-        displayAllTerms();  // Réafficher tous les termes
+      // Si la recherche est vide, réafficher tous les termes
+      if (query.length === 0) {
+        displayAllTerms();
         return;
       }
 
-      // Trouver les termes les plus proches via Levenshtein
+      // Si la recherche a 3 caractères ou plus, trouver les termes les plus proches via Levenshtein
       const closestMatches = [];
       const maxDistance = Math.max(3, query.length);  // Ajuste le seuil basé sur la longueur de la recherche
 
