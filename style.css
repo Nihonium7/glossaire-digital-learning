@@ -4,6 +4,11 @@ body {
   padding: 0;
   line-height: 1.6;
 }
+.logo {
+  width:100%;
+  height:auto;
+  
+}
 #search {
   width: 30%;
   padding: 10px;
