@@ -169,7 +169,7 @@
 	},
 	{
 		"term": "Gamification",
-		"definition": "Intégration d’éléments de jeu dans un cours pour stimuler la motivation et l’engagement des apprenants."
+		"definition": "La gamification est l'intégration d’éléments de jeu dans un cours pour stimuler la motivation et l’engagement des apprenants. Par exemple: barre de progression, compte de points gagnés, objets à récupérer, éléments personnalisés sur l'interface (tel que le nom de l'apprenant)... etc."
 	},
 	{
 		"term": "Graphisme 2D",
@@ -297,7 +297,7 @@
 	},
 	{
 		"term": "Serious games",
-		"definition": "Les jeux sérieux sont des jeux qui ont été conçus pour enseigner des compétences et des connaissances spécifiques tout en divertissant les joueurs."
+		"definition": "Les jeux sérieux sont des formations qui utilisent le jeu comme moteur d'apprentissage. Ils sont conçus pour apporter une dimension ludique à une formation, ce qui favorise l'engagement, la rétention d'information, et la valorisation des savoirs."
 	},
 	{
 		"term": "Sonorisation (étape projet)",
