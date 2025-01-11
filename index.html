@@ -7,12 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="logo"><img src="logo.png"/></div>
-  <h1>Glossaire Digital Learning - Avenir Conseil</h1>
-  <input type="text" id="search" placeholder="Rechercher un terme...">
+  <div class="logo"><img src="logo.png" alt="Logo"></div>
+  <h1>Glossaire Digital Learning</h1>
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Rechercher un terme...">
+  </div>
+  <div id="alphabet-links"></div>
   <div id="results"></div>
-  <script src="https://cdn.jsdelivr.net/npm/levenshtein-edit-distance@1.0.1/index.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+  <button id="scrollTopBtn" title="Retour en haut">↑</button>
+  <button id="searchBtn" title="Recherche"><img src="search-icon.png" alt="Recherche"></button>
   <script src="script.js"></script>
 </body>
 </html>

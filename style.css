@@ -1,25 +1,152 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color:#e6e6e6;
+  background-color: #242424;
+  text-align: center; /* Center-aligns the content */
 }
-.logo {
-  width:100%;
-  height:auto;
+
+h1 {
+  color: #515151;
+  font-size: 3em;
+  margin-top: 20px;
 }
-#search {
-  width: 30%;
+h2{
+  color: #cdcdcd;
+  font-style: italic;
+  border: 1px solid #777777;
+  /* background-color: #717171; */
   padding: 10px;
-  margin-bottom: 40px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+/* Logo Styles */
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Search Bar Styles */
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#search {
+  width: 60%;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.213);
+  margin: 40px;
 }
+
+/* Results Section */
 #results h3 {
   margin: 0;
-  color: #007BFF;
+  color: #00930a;
 }
+
 #results p {
   margin: 5px 0 15px;
+}
+
+/* Glossary Entry Styles */
+.glossary-entry {
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px auto;
+  background-color: #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.glossary-entry h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.glossary-entry p {
+  margin: 0;
+  font-size: 1em;
+  color: #666;
+}
+/* Alphabet Links Styles */
+#alphabet-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 40px;
+  gap: 5px;
+}
+
+#alphabet-links a {
+  text-decoration: none;
+  color: #2dbc28;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#alphabet-links a:hover {
+  background-color: #2dbc28;
+  color: white;
+}
+
+/* Scroll to Top Button */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  display: none; /* Hidden by default */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  background-color: #0056b3;
+}
+/* Search Button */
+#searchBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#searchBtn img {
+  width: 20px;
+  height: 20px;
+}
+
+#searchBtn:hover {
+  background-color: #0056b3;
 }
