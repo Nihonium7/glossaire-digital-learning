@@ -62,7 +62,7 @@ fetch('glossaire.json')
 		);
 
 		if (matches.length === 0) {
-		  resultsDiv.innerHTML = '<p>Aucun résultat trouvé.</p>';
+		  resultsDiv.innerHTML = '<p class="noresult" style="color:white;">Aucun résultat trouvé.</p>';
 		  return;
 		}
 
