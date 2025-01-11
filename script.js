@@ -87,7 +87,20 @@ fetch('glossaire.json')
 		const link = document.createElement('a');
 		link.href = `#${letter}`;
 		link.textContent = letter;
+		link.addEventListener('click', (event) => {
+		  event.preventDefault(); // Prevent default anchor behavior
+		  const target = document.getElementById(letter);
+		  smoothScrollTo(target); // Smooth scroll to the target letter
+		});
 		alphabetLinks.appendChild(link);
+	  });
+	}
+
+	// Function to scroll smoothly to an element
+	function smoothScrollTo(element) {
+	  element.scrollIntoView({
+		behavior: 'smooth',
+		block: 'start' // Align the element at the top of the viewport
 	  });
 	}
 
@@ -119,7 +132,8 @@ fetch('glossaire.json')
 	});
 
 	scrollTopBtn.addEventListener('click', () => {
-	  window.scrollTo({ top: 0, behavior: 'smooth' });
+	  // Smooth scroll to the top of the page
+	  smoothScrollTo(document.body);
 	});
 
 	// Search Button Logic
@@ -127,7 +141,13 @@ fetch('glossaire.json')
 
 	searchBtn.addEventListener('click', () => {
 	  searchInput.focus(); // Focus on the search bar
-	  searchInput.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the search bar
+
+	  // Smoothly scroll to the search input
+	  window.scrollTo({
+		top: searchInput.offsetTop - 20,  // Adjust to ensure it’s not hidden under the header
+		behavior: 'smooth'
+	  });
 	});
   })
   .catch(error => console.error('Erreur de chargement du fichier JSON:', error));
+  

@@ -16,11 +16,12 @@ h1 {
 h2{
   color: #cdcdcd;
   font-style: italic;
-  border: 1px solid #777777;
-  /* background-color: #717171; */
+  border: 1px solid #8a8a8a;
+  background-color: #1b1b1b;
   padding: 10px;
   margin-left: 40%;
   margin-right: 40%;
+  border-radius: 10px;
 }
 /* Logo Styles */
 .logo {
@@ -109,23 +110,23 @@ h2{
 /* Scroll to Top Button */
 #scrollTopBtn {
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
   z-index: 1000;
-  background-color: #007bff;
-  color: white;
+  background-color: #2dbc28;
   border: none;
   border-radius: 50%;
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
-  font-size: 18px;
-  display: none; /* Hidden by default */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
-
+#scrollTopBtn img {
+  width: 20px;
+  height: 20px;
+}
 #scrollTopBtn:hover {
-  background-color: #0056b3;
+  background-color: #67dc63;
 }
 /* Search Button */
 #searchBtn {
@@ -133,7 +134,7 @@ h2{
   top: 20px;
   right: 20px;
   z-index: 1000;
-  background-color: #007bff;
+  background-color: #2dbc28;
   border: none;
   border-radius: 50%;
   padding: 10px;
@@ -148,5 +149,5 @@ h2{
 }
 
 #searchBtn:hover {
-  background-color: #0056b3;
+  background-color: #67dc63;
 }
