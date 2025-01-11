@@ -59,30 +59,36 @@ h2 {
   right: 10px; /* Align it to the right of the search bar */
   top: 50%; /* Vertically center it */
   transform: translateY(-50%); /* Adjust for perfect vertical centering */
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   color: #fff; /* White "X" */
-  display: none; /* Initially hidden */
   /* Background styling */
   width: 24px;
   height: 24px;
   background-color: #aaa; /* Light gray background */
   border-radius: 50%; /* Circular shape */
-  display: flex;
+  display: none; /* Initially hidden */
   justify-content: center;
   align-items: center; /* Center the "X" */
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add slight shadow for depth */ */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add slight shadow for depth */
+  /* transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */ */
 }
 
-/* Hover effect for the "X" bubble */
-.clear-btn:hover {
-  background-color: #888; /* Darker gray on hover */
+/* Show the clear button when there is text in the search bar */
+#search:not(:placeholder-shown) + .clear-btn {
+  display: flex; /* Make the button visible when there is text */
 }
 
-/* Focus effect for the "X" bubble */
-#search:focus + .clear-btn,
+/* Hover effect */
+.clear-btn:hover,
 .clear-btn:focus {
-  background-color: #666; /* Dark gray on focus */
+  background-color: #888; /* Darker gray on hover or focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Optional focus state for better accessibility */
+.clear-btn:focus {
+  box-shadow: 0 0 0 3px rgba(100, 100, 100, 0.5); /* Optional focus ring for accessibility */
 }
 
 /* Results Section */
@@ -166,4 +172,21 @@ h2 {
 
 #scrollTopBtn:hover {
   background-color: #67dc63;
+}
+footer{
+  margin: 40px;
+  color:#6a6a6a;
+}
+footer a {
+  color: #61Ce70;
+}
+footer a:hover {
+  color: #4fa75c;
+}
+.sitelink {
+position: relative;
+display: inline-block;
+padding-top: 1px;
+padding-bottom: 1px;
+line-height: 1.2;
 }

@@ -126,6 +126,19 @@ fetch('glossaire.json')
 	  }
 	});
 
+	// Ensure hover state works correctly
+	clearButton.addEventListener('mouseover', () => {
+	  if (searchInput.value.trim() !== '') {
+		clearButton.style.color = '#fff'; // Darker color on hover
+	  }
+	});
+
+	clearButton.addEventListener('mouseout', () => {
+	  if (searchInput.value.trim() !== '') {
+		clearButton.style.color = '#fff'; // Reset color when not hovering
+	  }
+	});
+
 	// Initialisation : Créer les liens alphabétiques et afficher tous les termes
 	createAlphabetLinks();
 	displayAllTerms();
