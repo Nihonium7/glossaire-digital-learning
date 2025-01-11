@@ -1,11 +1,10 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   background-color: #242424;
-  text-align: center; /* Center-aligns the content */
+  text-align: center;
 }
 
 h1 {
@@ -29,8 +28,6 @@ h2 {
   max-width: 100%;
   height: auto;
 }
-
-/* Search Bar Styles */
 .search-container {
   margin: 40px auto;
   text-align: center;
@@ -92,6 +89,9 @@ h2 {
 }
 
 /* Results Section */
+.noresult{
+  font-size: 1.5em;
+}
 #results {
   margin-top: 200px;
 }
