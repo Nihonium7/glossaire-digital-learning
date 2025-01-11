@@ -17,12 +17,6 @@ h1 {
 h2 {
   color: #cdcdcd;
   font-style: italic;
-  border: 1px solid #8a8a8a;
-  background-color: #1b1b1b;
-  padding: 10px;
-  margin-left: 40%;
-  margin-right: 40%;
-  border-radius: 10px;
 }
 
 /* Logo Styles */
@@ -38,7 +32,7 @@ h2 {
 
 /* Search Bar Styles */
 .search-container {
-  margin: 20px auto;
+  margin: 40px auto;
   text-align: center;
 }
 
@@ -51,6 +45,7 @@ h2 {
 #search {
   width: 100%; /* Take full width of the wrapper */
   padding: 10px;
+  color: #595959;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgb(0, 0, 0);
@@ -64,11 +59,10 @@ h2 {
   right: 10px; /* Align it to the right of the search bar */
   top: 50%; /* Vertically center it */
   transform: translateY(-50%); /* Adjust for perfect vertical centering */
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   color: #fff; /* White "X" */
   display: none; /* Initially hidden */
-  
   /* Background styling */
   width: 24px;
   height: 24px;
