@@ -92,6 +92,9 @@ h2 {
 }
 
 /* Results Section */
+#results {
+  margin-top: 200px;
+}
 #results h3 {
   margin: 0;
   color: #00930a;
