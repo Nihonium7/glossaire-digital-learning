@@ -55,12 +55,12 @@ h2 {
   /* Background styling */
   width: 24px;
   height: 24px;
-  background-color: #aaa; /* Light gray background */
+  background-color: #888; /* Light gray background */
   border-radius: 50%; /* Circular shape */
   display: none; /* Initially hidden */
   justify-content: center;
   align-items: center; /* Center the "X" */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add slight shadow for depth */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.384); /* Add slight shadow for depth */
   /* transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */ */
 }
 
@@ -72,7 +72,7 @@ h2 {
 /* Hover effect */
 .clear-btn:hover,
 .clear-btn:focus {
-  background-color: #888; /* Darker gray on hover or focus */
+  background-color: #555; /* Darker gray on hover or focus */
   outline: none; /* Remove default focus outline */
 }
 
