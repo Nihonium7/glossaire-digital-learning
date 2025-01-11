@@ -1,29 +1,25 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   background-color: #242424;
-  text-align: center;
+  text-align: center; /* Center-aligns the content */
 }
-
 h1 {
   color: #515151;
   font-size: 3em;
   margin-top: 20px;
 }
-
 h2 {
   color: #cdcdcd;
   font-style: italic;
 }
-
-/* Logo Styles */
 .logo {
   text-align: center;
   margin: 20px 0;
 }
-
 .logo img {
   max-width: 100%;
   height: auto;
@@ -32,24 +28,21 @@ h2 {
   margin: 40px auto;
   text-align: center;
 }
-
 #search-wrapper {
   position: relative;
   width: 60%; /* Control the width of the search bar */
   margin: 0 auto; /* Center the search bar */
 }
-
 #search {
-  width: 100%; /* Take full width of the wrapper */
+  width: 100%;
   padding: 10px;
   color: #595959;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgb(0, 0, 0);
   font-size: 2em;
-  background-color: beige;
+  background-color: #c8d4c8;
 }
-
 /* Clear button with gray bubble style */
 .clear-btn {
   position: absolute;
@@ -98,13 +91,11 @@ h2 {
 #results h3 {
   margin: 0;
   color: #00930a;
+  font-size: 1.5em;
 }
-
 #results p {
   margin: 5px 0 15px;
 }
-
-/* Glossary Entry Styles */
 .glossary-entry {
   text-align: left;
   border: 1px solid #ddd;
@@ -115,20 +106,16 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 80%;
 }
-
 .glossary-entry h3 {
   margin: 0 0 8px 0;
   font-size: 1.2em;
   color: #333;
 }
-
 .glossary-entry p {
   margin: 0;
   font-size: 1em;
   color: #666;
 }
-
-/* Alphabet Links Styles */
 #alphabet-links {
   display: flex;
   justify-content: center;
@@ -136,24 +123,21 @@ h2 {
   margin: 40px 40px;
   gap: 5px;
 }
-
 #alphabet-links a {
   text-decoration: none;
-  color: #6a6a6a;
+  color: #4f4f4f;
   font-weight: bold;
   padding: 5px 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  background-color: beige;
+  background-color: #c8d4c8;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 #alphabet-links a:hover {
-  background-color: #2dbc28;
+  background-color: #71c36e;
   color: white;
+  transition: ease-in-out 0.3s;
 }
-
-/* Scroll to Top Button */
 #scrollTopBtn {
   position: fixed;
   top: 20px;
@@ -167,12 +151,10 @@ h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.5s ease;
 }
-
 #scrollTopBtn img {
   width: 20px;
   height: 20px;
 }
-
 #scrollTopBtn:hover {
   background-color: #67dc63;
 }
@@ -185,11 +167,4 @@ footer a {
 }
 footer a:hover {
   color: #4fa75c;
-}
-.sitelink {
-position: relative;
-display: inline-block;
-padding-top: 1px;
-padding-bottom: 1px;
-line-height: 1.2;
 }
