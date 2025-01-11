@@ -106,12 +106,22 @@ fetch('glossaire.json')
 
 	// Ajouter un événement sur la barre de recherche
 	const searchInput = document.getElementById('search');
+	const clearButton = document.querySelector('.clear-btn'); // Select the clear button
+	
+	clearButton.addEventListener('click', () => {
+	  searchInput.value = ''; // Clear the search input
+	  clearButton.style.display = 'none'; // Hide the "X"
+	  displayAllTerms(); // Show all terms when cleared
+	});
+	
 	searchInput.addEventListener('input', () => {
 	  const query = searchInput.value.trim();
-
+	
 	  if (query === '') {
+		clearButton.style.display = 'none'; // Hide the "X" when input is empty
 		displayAllTerms();
 	  } else {
+		clearButton.style.display = 'block'; // Show the "X" when there's input
 		displaySearchResults(query);
 	  }
 	});
@@ -150,4 +160,3 @@ fetch('glossaire.json')
 	});
   })
   .catch(error => console.error('Erreur de chargement du fichier JSON:', error));
-  
