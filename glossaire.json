@@ -1,354 +1,442 @@
 [
 	{
 		"term": "Accessibilité",
-		"definition": "(critères RGAA) Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA)."
+		"definition": "(critères RGAA) Processus visant à rendre les contenus numériques accessibles à toutes les personnes, y compris celles en situation de handicap, conformément au Référentiel Général d'Amélioration de l'Accessibilité (RGAA).",
+		"tags": ["#contenu"]
 	},
 	{
 		"term": "Adobe Illustrator",
-		"definition": "Logiciel Adobe de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies."
+		"definition": "Logiciel Adobe de conception graphique vectorielle utilisé pour créer des illustrations, logos et infographies.",
+		"tags": ["#outils", "#design"]
 	},
 	{
 		"term": "Adobe Photoshop",
-		"definition": "Logiciel Adobe de retouche photo et de conception graphique pour modifier et créer des images numériques."
+		"definition": "Logiciel Adobe de retouche photo et de conception graphique pour modifier et créer des images numériques.",
+		"tags": ["#outils", "#design"]
 	},
 	{
 		"term": "Adobe Premiere",
-		"definition": "Logiciel Adobe de montage vidéo professionnel permettant de créer des vidéos éditées de qualité."
+		"definition": "Logiciel Adobe de montage vidéo professionnel permettant de créer des vidéos éditées de qualité.",
+		"tags": ["#outils", "#design"]
 	},
 	{
 		"term": "Analyse des besoins",
-		"definition": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée."
+		"definition": "Étape consistant à évaluer les besoins et objectifs des apprenants pour concevoir une formation adaptée.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Articulate Rise",
-		"definition": "Outil de la suite Articulate pour la création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation."
+		"definition": "Outil de la suite Articulate pour la création de contenus e-learning adaptés aux appareils mobiles et orienté sur la simplicité d’utilisation.",
+		"tags": ["#outils", "#design"]
 	},
 	{
 		"term": "Articulate Storyline",
-		"definition": "Outil de la suite Articulate pour le e-learning, permettant de concevoir des modules interactifs et multimédias."
+		"definition": "Outil de la suite Articulate pour le e-learning, permettant de concevoir des modules interactifs et multimédias.",
+		"tags": ["#outils", "#design"]
 	},
 	{
 		"term": "Blended learning",
-		"definition": "Approche hybride combinant des sessions en ligne et des cours en présentiel."
+		"definition": "Approche hybride combinant des sessions en ligne et des cours en présentiel.",
+		"tags": ["#modalité", "#contenu"]
 	},
 	{
 		"term": "Brainstorming",
-		"definition": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème."
+		"definition": "Technique de génération d’idées en groupe visant à explorer diverses solutions pour un projet ou un problème.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Brief de sonorisation",
-		"definition": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet."
+		"definition": "Document détaillant les attentes pour l’intégration des contenus audio dans un projet.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Brief environnement",
-		"definition": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel."
+		"definition": "Document décrivant les caractéristiques et contraintes d’un environnement de travail ou d’apprentissage virtuel.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Brief personnages",
-		"definition": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs)."
+		"definition": "Document définissant les caractéristiques des personnages utilisés dans un projet (visuels ou narratifs).",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Canaux Teams",
-		"definition": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal teams par projet."
+		"definition": "Espaces de communication et de collaboration dans Microsoft Teams, utilisés pour organiser/gérer l’avancement des projets. Un canal teams par projet.",
+		"tags": ["#process", "#outils"]
 	},
 	{
 		"term": "Charte éditoriale",
-		"definition": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet."
+		"definition": "Document décrivant les règles pour produire des contenus écrits cohérents et alignés avec les objectifs d’un projet.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Charte graphique",
-		"definition": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente."
+		"definition": "Document définissant les éléments visuels (couleurs, polices, logos) à utiliser pour une identité visuelle cohérente.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Classe virtuelle",
-		"definition": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants."
+		"definition": "Salle de classe en ligne permettant une interaction en temps réel entre enseignants et apprenants.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Conception",
-		"definition": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage."
+		"definition": "Étape de création du contenu pédagogique et des supports de cours pour un programme d’apprentissage.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Contenu pédagogique",
-		"definition": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences."
+		"definition": "Ensemble des textes, visuels et médias destinés à transmettre des connaissances et compétences.",
+		"tags": ["#contenu", "#process"]
 	},
 	{
 		"term": "Déclinaisons graphiques",
-		"definition": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats."
+		"definition": "Adaptations des éléments graphiques d’un projet pour différents supports ou formats.",
+		"tags": ["#design", "#process", "#gestionprojet"]
 	},
 	{
 		"term": "Démo",
-		"definition": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours."
+		"definition": "Présentation d’un prototype ou d’une version test d’un projet pour recueillir des retours.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Digitalisation",
-		"definition": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne."
+		"definition": "Conversion de contenus et processus pédagogiques en formats numériques accessibles en ligne.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Direction artistique",
-		"definition": "Processus de conception et supervision de l’aspect visuel d’un projet."
+		"definition": "Processus de conception et supervision de l’aspect visuel d’un projet.",
+		"tags": ["#process", "#design", "#gestionprojet"]
 	},
 	{
 		"term": "E-learning",
-		"definition": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs."
+		"definition": "Apprentissage en ligne utilisant des technologies numériques pour accéder à des contenus éducatifs.",
+		"tags": ["#process", "#modalité"]
 	},
 	{
 		"term": "Enregistrements audio et vidéo",
-		"definition": "Supports multimédias enrichissant les cours et démonstrations."
+		"definition": "Supports multimédias enrichissant les cours et démonstrations.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Excel de ressources graphiques (storyboard)",
-		"definition": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard."
+		"definition": "Fichier Excel listant les éléments graphiques associés à chaque étape d’un storyboard.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Évaluation formative",
-		"definition": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation."
+		"definition": "Méthode d’évaluation continue pour mesurer la compréhension des apprenants et ajuster la formation.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Évaluation sommative (finale)",
-		"definition": "Évaluation en fin de programme pour valider les compétences acquises."
+		"definition": "Évaluation en fin de programme pour valider les compétences acquises.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Fiche d’aspects techniques",
-		"definition": "Document listant les contraintes et spécifications techniques d’un projet."
+		"definition": "Document listant les contraintes et spécifications techniques d’un projet.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Fiche de sonorisation",
-		"definition": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié."
+		"definition": "Document dans lequel sont mentionnés les caractéristiques des personnages (âge, genre…) afin que le studio sélectionne le comédien le plus approprié.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Fiche ID projets",
-		"definition": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales."
+		"definition": "Document synthétique présentant l’identité d’un projet, ses objectifs et ses caractéristiques principales.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Fiche projet",
-		"definition": "Document de référence détaillant les informations clés sur un projet."
+		"definition": "Document de référence détaillant les informations clés sur un projet.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Fiche REX clients",
-		"definition": "Retour d’expérience d’un client concernant un projet livré."
+		"definition": "Retour d’expérience d’un client concernant un projet livré.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Formation à distance",
-		"definition": "Apprentissage réalisé sans la présence physique de l’enseignant et de l’apprenant dans le même lieu."
+		"definition": "Apprentissage réalisé sans la présence physique de l’enseignant et de l’apprenant dans le même lieu.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation en blended learning",
-		"definition": "Formation hybride combinant des séances en ligne et en présentiel."
+		"definition": "Formation hybride combinant des séances en ligne et en présentiel.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation en ligne asynchrone",
-		"definition": "Formation permettant aux apprenants de suivre le programme à leur propre rythme."
+		"definition": "Formation permettant aux apprenants de suivre le programme à leur propre rythme.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation en ligne synchrone",
-		"definition": "Formation en temps réel réunissant apprenants et formateurs connectés simultanément."
+		"definition": "Formation en temps réel réunissant apprenants et formateurs connectés simultanément.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation en présentiel",
-		"definition": "Formation traditionnelle où enseignants et apprenants se retrouvent dans un même lieu physique."
+		"definition": "Formation traditionnelle où enseignants et apprenants se retrouvent dans un même lieu physique.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation par apprentissage expérientiel",
-		"definition": "La formation par apprentissage expérientiel implique que les apprenants apprennent en faisant des expériences pratiques, plutôt que par des explications théoriques."
+		"definition": "La formation par apprentissage expérientiel implique que les apprenants apprennent en faisant des expériences pratiques, plutôt que par des explications théoriques.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation par jeu",
-		"definition": "La formation par jeu implique que les apprenants apprennent en jouant à des jeux éducatifs."
+		"definition": "La formation par jeu implique que les apprenants apprennent en jouant à des jeux éducatifs.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation par projet",
-		"definition": "La formation par projet implique que les apprenants travaillent sur des projets pratiques pour acquérir des compétences et des connaissances."
+		"definition": "La formation par projet implique que les apprenants travaillent sur des projets pratiques pour acquérir des compétences et des connaissances.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation par simulation",
-		"definition": "La formation par simulation implique que les apprenants apprennent en simulant des situations réelles."
+		"definition": "La formation par simulation implique que les apprenants apprennent en simulant des situations réelles.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Formation par résolution de problèmes",
-		"definition": "La formation par résolution de problèmes implique que les apprenants travaillent sur des problèmes pratiques pour acquérir des compétences et des connaissances."
+		"definition": "La formation par résolution de problèmes implique que les apprenants travaillent sur des problèmes pratiques pour acquérir des compétences et des connaissances.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Gamification",
-		"definition": "La gamification est l'intégration d’éléments de jeu dans un cours pour stimuler la motivation et l’engagement des apprenants. Par exemple: barre de progression, compte de points gagnés, objets à récupérer, éléments personnalisés sur l'interface (tel que le nom de l'apprenant)... etc."
+		"definition": "La gamification est l'intégration d’éléments de jeu dans un cours pour stimuler la motivation et l’engagement des apprenants. Par exemple: barre de progression, compte de points gagnés, objets à récupérer, éléments personnalisés sur l'interface (tel que le nom de l'apprenant)... etc.",
+		"tags": ["#design", "#contenu", "#format"]
 	},
 	{
 		"term": "Graphisme 2D",
-		"definition": "Ensemble d’éléments graphiques réalisés en 2 dimensions sur des logiciels spécifiques (Adobe Photoshop, Adobe Indesign, Adobe Illustrator, autres?)."
+		"definition": "Ensemble d’éléments graphiques réalisés en 2 dimensions sur des logiciels spécifiques (Adobe Photoshop, Adobe Indesign, Adobe Illustrator, autres?).",
+		"tags": ["#design"]
 	},
 	{
 		"term": "Graphisme 3D",
-		"definition": "Ensemble d’éléments graphiques réalisés en 3 dimensions sur des logiciels spécifiques (Unreal Engine, autres?)."
+		"definition": "Ensemble d’éléments graphiques réalisés en 3 dimensions sur des logiciels spécifiques (Unreal Engine, autres?).",
+		"tags": ["#design"]
 	},
 	{
 		"term": "Interactivité",
-		"definition": "Caractéristique d’un contenu permettant une interaction entre l’apprenant et les éléments pédagogiques."
+		"definition": "Caractéristique d’un contenu permettant une interaction entre l’apprenant et les éléments pédagogiques.",
+		"tags": ["#design", "#contenu"]
 	},
 	{
 		"term": "Lien de review interne",
-		"definition": "Lien html issu d’articulate storyline afin de procéder aux étapes de recettages interne par le LD, et au recettage technique, par le directeur technique."
+		"definition": "Lien html issu d’articulate storyline afin de procéder aux étapes de recettages interne par le LD, et au recettage technique, par le directeur technique.",
+		"tags": ["#process", "#recettage"]
 	},
 	{
 		"term": "Lien de review clients",
-		"definition": "Lien html issu d’articulate storyline qui permet aux clients de visualiser le module elearning et de soumettre leurs demandes de corrections."
+		"definition": "Lien html issu d’articulate storyline qui permet aux clients de visualiser le module elearning et de soumettre leurs demandes de corrections.",
+		"tags": ["#process", "#recettage"]
 	},
 	{
 		"term": "LMS (Learning Management System)",
-		"definition": "Plateformes où sont déposés les modules e-learning, activités formatives, quiz, fichiers annexes... etc. Une plateforme LMS permet la gestion des comptes apprenants ainsi que celle des formations, en permettant de créer, suivre et gérer des cours en ligne.<br>Elles permettent également un suivi statistique rapproché sur toutes les actions des apprenants : les LMS échangent des informations avec les packages SCORM (modules) en remontant des données de suivi très poussées, telles que le taux de progression dans le module, les scores des quiz, le temps passé sur les cours, les réponses aux questions, etc."
+		"definition": "Plateformes où sont déposés les modules e-learning, activités formatives, quiz, fichiers annexes... etc. Une plateforme LMS permet la gestion des comptes apprenants ainsi que celle des formations, en permettant de créer, suivre et gérer des cours en ligne.<br>Elles permettent également un suivi statistique rapproché sur toutes les actions des apprenants : les LMS échangent des informations avec les packages SCORM (modules) en remontant des données de suivi très poussées, telles que le taux de progression dans le module, les scores des quiz, le temps passé sur les cours, les réponses aux questions, etc.",
+		"tags": ["#outils", "#LMS"]
 	},
 	{
 		"term": "Maquette graphique (propositions de Direction Artistique)",
-		"definition": "Représentation visuelle de l’identité visuelle d’un projet, incluant les choix de couleurs, typographies et illustrations."
+		"definition": "Représentation visuelle de l’identité visuelle d’un projet, incluant les choix de couleurs, typographies et illustrations.",
+		"tags": ["#design", "#process"]
 	},
 	{
 		"term": "Microlearning",
-		"definition": "Méthode d’apprentissage en petites séquences pour faciliter la compréhension et la rétention."
+		"definition": "Méthode d’apprentissage en petites séquences pour faciliter la compréhension et la rétention.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "MOOC (Massive Open Online Course)",
-		"definition": "Cours en ligne accessible à tous, souvent gratuit et regroupant un large public."
+		"definition": "Cours en ligne accessible à tous, souvent gratuit et regroupant un large public.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Motion design",
-		"definition": "Conception de contenus animés pour présenter des idées ou produits de manière dynamique."
+		"definition": "Conception de contenus animés pour présenter des idées ou produits de manière dynamique.",
+		"tags": ["#contenu", "#design", "#format"]
 	},
 	{
 		"term": "Médias interactifs",
-		"definition": "Supports numériques engageants incluant quiz, jeux, simulations et vidéos interactives."
+		"definition": "Supports numériques engageants incluant quiz, jeux, simulations et vidéos interactives.",
+		"tags": ["#contenu", "#format"]
 	},
 	{
 		"term": "Médias pédagogiques",
-		"definition": "Supports audiovisuels et visuels utilisés pour transmettre des connaissances efficacement."
+		"definition": "Supports audiovisuels et visuels utilisés pour transmettre des connaissances efficacement.",
+		"tags": ["#modalité", "#contenu", "#format"]
 	},
 	{
 		"term": "Modules de formation mobiles",
-		"definition": "Les modules de formation mobiles sont conçus pour être consultés sur des appareils mobiles tels que les smartphones et les tablettes."
+		"definition": "Les modules de formation mobiles sont conçus pour être consultés sur des appareils mobiles tels que les smartphones et les tablettes.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Objectifs pédagogiques",
-		"definition": "Descriptions précises des compétences et connaissances visées par une formation."
+		"definition": "Descriptions précises des compétences et connaissances visées par une formation.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Onboarding logiciel",
-		"definition": "Processus d’intégration pour accompagner les utilisateurs dans la prise en main d’un logiciel."
+		"definition": "Processus d’intégration pour accompagner les utilisateurs dans la prise en main d’un logiciel.",
+		"tags": ["#process", "#modalité"]
 	},
 	{
 		"term": "Planification",
-		"definition": "Organisation du contenu, des méthodes et des supports pour structurer un programme d’apprentissage."
+		"definition": "Organisation du contenu, des méthodes et des supports pour structurer un programme d’apprentissage.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Plateforme d'apprentissage",
-		"definition": "Une plateforme d'apprentissage est un système qui permet aux enseignants et aux formateurs de créer, de gérer et de suivre des cours en ligne."
+		"definition": "Une plateforme d'apprentissage est un système qui permet aux enseignants et aux formateurs de créer, de gérer et de suivre des cours en ligne.",
+		"tags": ["#outils", "#LMS"]
 	},
 	{
 		"term": "Podcasts",
-		"definition": "Contenus audio éducatifs pour approfondir des sujets spécifiques."
+		"definition": "Contenus audio éducatifs pour approfondir des sujets spécifiques.",
+		"tags": ["#contenu", "#modalité", "#format"]
 	},
 	{
 		"term": "Proposition technico-pédagogique (propale)",
-		"definition": "Document détaillant l’approche technique et pédagogique d’un projet."
+		"definition": "Document détaillant l’approche technique et pédagogique d’un projet.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "PV de livraison (UGAP)",
-		"definition": "Procès Verbal de livraison, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi. Transmission d’un questionnaire de satisfaction en lien avec la contractualisation UGAP."
+		"definition": "Procès Verbal de livraison, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi. Transmission d’un questionnaire de satisfaction en lien avec la contractualisation UGAP.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "PV de livraison (sans UGAP)",
-		"definition": "Procès Verbal de livraison – non lié à l’UGAP, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi."
+		"definition": "Procès Verbal de livraison – non lié à l’UGAP, à remplir par le LD, faire signer par le responsable des ventes et transmettre au client. Ce PV est à retourner signé dans les 15 jours suivant l’envoi.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Réalité augmentée (AR)",
-		"definition": "Technologie enrichissant un environnement réel avec des éléments numériques."
+		"definition": "Technologie enrichissant un environnement réel avec des éléments numériques.",
+		"tags": ["#modalité", "#outils"]
 	},
 	{
 		"term": "Réalité virtuelle (VR)",
-		"definition": "Technologie immersant les utilisateurs dans un environnement entièrement virtuel."
+		"definition": "Technologie immersant les utilisateurs dans un environnement entièrement virtuel.",
+		"tags": ["#modalité", "#outils"]
 	},
 	{
 		"term": "Recettage technique",
-		"definition": "Étape de production dans laquelle le directeur technique relit le module et contrôle sa bonne fonctionnalité. Edition d’un document de recettage technique à destination de la LD/ prod."
+		"definition": "Étape de production dans laquelle le directeur technique relit le module et contrôle sa bonne fonctionnalité. Edition d’un document de recettage technique à destination de la LD/ prod.",
+		"tags": ["#process", "#recettage"]
 	},
 	{
 		"term": "Rétroplanning",
-		"definition": "Planification détaillée d’un projet à partir de la date de livraison en remontant vers le présent."
+		"definition": "Planification détaillée d’un projet à partir de la date de livraison en remontant vers le présent.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Réunion de cadrage",
-		"definition": "Rencontre initiale pour fixer les objectifs, contraintes et attentes d’un projet."
+		"definition": "Rencontre initiale pour fixer les objectifs, contraintes et attentes d’un projet.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Réunion de lancement",
-		"definition": "Première rencontre officielle pour démarrer un projet et informer les parties prenantes."
+		"definition": "Première rencontre officielle pour démarrer un projet et informer les parties prenantes.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "SCORM",
-		"definition": "Signifie 'Sharable Content Object Reference Model'. C'est une norme internationale pour la création de modules e-learning. Elle regroupe deux choses :<br> - Le format du fichier à partager : c’est un fichier zip contenant tous les médias du module et respectant une certaine nomenclature. <br> - Le protocole d'échange entre le module et la plateforme LMS qui va héberger le module. <br>Le SCORM permet d'échanger des informations avec la LMS pour les rémontées de score, le taux de progression dans le module, etc."
+		"definition": "Signifie 'Sharable Content Object Reference Model'. C'est une norme internationale pour la création de modules e-learning. Elle regroupe deux choses :<br> - Le format du fichier à partager : c’est un fichier zip contenant tous les médias du module et respectant une certaine nomenclature. <br> - Le protocole d'échange entre le module et la plateforme LMS qui va héberger le module. <br>Le SCORM permet d'échanger des informations avec la LMS pour les rémontées de score, le taux de progression dans le module, etc.",
+		"tags": ["#LMS", "#format", "#contenu"]
 	},
 	{
 		"term": "SCORM Cloud",
-		"definition": "Plateforme permettant de tester et d’évaluer la compatibilité des modules SCORM."
+		"definition": "Plateforme permettant de tester et d’évaluer la compatibilité des modules SCORM.",
+		"tags": ["#LMS", "#contenu", "#recettage"]
 	},
 	{
 		"term": "Scénarisation",
-		"definition": "Conception des scénarios pédagogiques pour structurer un cours en ligne."
+		"definition": "Conception des scénarios pédagogiques pour structurer un cours en ligne.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Script pédagogique",
-		"definition": "Document détaillant le contenu, les dialogues et les interactions d’un module e-learning."
+		"definition": "Document détaillant le contenu, les dialogues et les interactions d’un module e-learning.",
+		"tags": ["#process", "#gestionprojet"]
 	},
 	{
 		"term": "Serious games",
-		"definition": "Les jeux sérieux sont des formations qui utilisent le jeu comme moteur d'apprentissage. Ils sont conçus pour apporter une dimension ludique à une formation, ce qui favorise l'engagement, la rétention d'information, et la valorisation des savoirs."
+		"definition": "Les jeux sérieux sont des formations qui utilisent le jeu comme moteur d'apprentissage. Ils sont conçus pour apporter une dimension ludique à une formation, ce qui favorise l'engagement, la rétention d'information, et la valorisation des savoirs.",
+		"tags": ["#design", "#contenu"]
 	},
 	{
 		"term": "Sonorisation (étape projet)",
-		"definition": "Phase du projet au cours de laquelle le studio de sonorisation est sollicité afin de faire enregistrer l’ensemble des voix off, par des comédiens professionnels."
+		"definition": "Phase du projet au cours de laquelle le studio de sonorisation est sollicité afin de faire enregistrer l’ensemble des voix off, par des comédiens professionnels.",
+		"tags": ["#process", "#contenu", "#gestionprojet"]
 	},
 	{
 		"term": "SPOC",
-		"definition": "Small Private Online Course. Il s'agit d'un cours en ligne similaire à un MOOC, mais avec un nombre limité de participants."
+		"definition": "Small Private Online Course. Il s'agit d'un cours en ligne similaire à un MOOC, mais avec un nombre limité de participants.",
+		"tags": ["#modalité"]
 	},
 	{
 		"term": "Storyboard",
-		"definition": "Un storyboard est un plan détaillé de chaque diapositive ou page du cours en ligne, avec des notes sur le texte, les images et les interactions prévues." 
+		"definition": "Un storyboard est un plan détaillé de chaque diapositive ou page du cours en ligne, avec des notes sur le texte, les images et les interactions prévues.",
+		"tags":["#contenu","#process"]
 	},
 	{
 		"term": "Synopsis",
-		"definition": "Document de travail rédigé par la LD, compilant l’ensemble des contenus des clients, répartis dans des séquences/chapitres, correspondant à des objectifs pédagogiques. Des premières idées de traitements pédagogiques seront mentionnées dans ce document."
+		"definition": "Document de travail rédigé par la LD, compilant l’ensemble des contenus des clients, répartis dans des séquences/chapitres, correspondant à des objectifs pédagogiques. Des premières idées de traitements pédagogiques seront mentionnées dans ce document.",
+		"tags": ["#process", "#contenu"]
 	},
 	{
 		"term": "Tutoriel",
-		"definition": "Guide ou instructions pour aider à apprendre ou utiliser un sujet ou un logiciel."
+		"definition": "Guide ou instructions pour aider à apprendre ou utiliser un sujet ou un logiciel.",
+		"tags": ["#contenu", "#modalité","#format"]
 	},
 	{
 		"term": "UGAP",
-		"definition": "Centrale d'achat publique en France qui permet aux administrations publiques et aux établissements publics de réaliser des achats de manière centralisée, pour bénéficier de conditions avantageuses (tarifs réduits, simplification des démarches administratives)."
+		"definition": "Centrale d'achat publique en France qui permet aux administrations publiques et aux établissements publics de réaliser des achats de manière centralisée, pour bénéficier de conditions avantageuses (tarifs réduits, simplification des démarches administratives).",
+		"tags": ["#process"]
 	},
 	{
 		"term": "UI Design",
-		"definition": "Conception des éléments visuels (boutons de navigation entre autres) avec lesquels l'utilisateur interagit sur un produit numérique."
+		"definition": "Conception des éléments visuels (boutons de navigation entre autres) avec lesquels l'utilisateur interagit sur un produit numérique.",
+		"tags": ["#design", "#contenu"]
 	},
 	{
 		"term": "UX Design",
-		"definition": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle."
+		"definition": "Conception de l'expérience globale de l'utilisateur pour la rendre agréable et fonctionnelle.",
+		"tags": ["#design", "#contenu"]
 	},
 	{
 		"term": "Vidéos éducatives",
-		"definition": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des concepts complexes ou démontrer des procédures pratiques."
+		"definition": "Les vidéos éducatives sont des vidéos créées spécifiquement pour l'apprentissage et peuvent être utilisées pour expliquer des concepts complexes ou démontrer des procédures pratiques.",
+		"tags": ["#contenu", "#modalité", "#format"]
 	},
 	{
 		"term": "Version montée alpha",
-		"definition": "Première version éditée par le monteur, au format lien de review web, afin d’apprécier l’ensemble des éléments validés en phase de storyboard, mis en forme et animés dans le logiciel de montage Storyline."
+		"definition": "Première version éditée par le monteur, au format lien de review web, afin d’apprécier l’ensemble des éléments validés en phase de storyboard, mis en forme et animés dans le logiciel de montage Storyline.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Version montée bêta",
-		"definition": "Seconde version éditée par le monteur, dans laquelle les commentaires des clients auront été appliqués."
+		"definition": "Seconde version éditée par le monteur, dans laquelle les commentaires des clients auront été appliqués.",
+		"tags": ["#process"]
 	},
 	{
 		"term": "Webinaires",
-		"definition": "Les webinaires sont des événements en ligne en direct où l'enseignant et les apprenants peuvent interagir en temps réel."
+		"definition": "Les webinaires sont des événements en ligne en direct où l'enseignant et les apprenants peuvent interagir en temps réel.",
+		"tags": ["#contenu", "#modalité"]
 	},
 	{
 		"term": "Wrike",
-		"definition": "Outil de gestion de projet comprenant les plannings, plans de charge de l’équipe ainsi que toutes les informations nécessaires à la rentabilité du projet (alloués, efforts…)."
+		"definition": "Outil de gestion de projet comprenant les plannings, plans de charge de l’équipe ainsi que toutes les informations nécessaires à la rentabilité du projet (alloués, efforts…).",
+		"tags": ["#outils", "#process"]
 	}
 ]

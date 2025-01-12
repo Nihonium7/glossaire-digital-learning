@@ -135,7 +135,7 @@ input[type="checkbox"] {
   border-radius: 8px;
   padding: 16px;
   margin: 8px auto;
-  background-color: rgba(203, 219, 204, 0.888);
+  background-color: rgba(215, 230, 216, 0.923);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
   width: 80%;
 }
@@ -208,5 +208,42 @@ a {
 }
 a:hover {
   color: #4fa75c;
+  transition: ease-in-out 0.2s;
+}
+.tags-container {
+  margin-bottom: 10px;
+}
+#tags .tag {
+  text-decoration: none;
+}
+.tag, #clear-tag-btn {
+  font-size:0.8em;
+  background-color: #4CAF50;
+  color: rgb(226, 226, 226);
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#clear-tag-btn{
+  background-color: rgb(238, 40, 40);
+  transition: ease-in-out 0.2s;
+}
+#clear-tag-btn:hover{
+  background-color: rgb(231, 105, 105);
+}
+.tag.active {
+  border: 1px solid #e8e8e8; /* Change the color to suit your design */
+  border-radius: 6px;
+  background-color: #dcebdd; /* Optional: Add a subtle background color */
+  color: #363535; /* Match the text color to the border */
+}
+.tags-container a{
+  text-decoration: none;
+}
+.tag:hover {
+  background-color: #45a049;
+  color: white;
   transition: ease-in-out 0.2s;
 }
