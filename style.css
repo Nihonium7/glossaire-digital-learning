@@ -62,7 +62,7 @@ code{
 
 label {
   color: #cdcdcd;
-  font-size: 0.9em;
+  font-size: 0.8em;
   cursor: pointer;
   margin-left: 10px;
 }
@@ -88,7 +88,7 @@ input[type="checkbox"] {
 /* Clear button with gray bubble style */
 .clear-btn {
   position: absolute;
-  right: -15px; /* Align it to the right of the search bar */
+  right: -25px; /* Align it to the right of the search bar */
   top: 50%; /* Vertically center it */
   transform: translateY(-50%); /* Adjust for perfect vertical centering */
   font-size: 22px;
@@ -204,11 +204,12 @@ footer p {
   color: #777;
 }
 a {
-  color: #61Ce70;
+  color: #4fa75c;
+  text-decoration: none;
 }
 a:hover {
-  color: #4fa75c;
-  transition: ease-in-out 0.2s;
+  color: #61Ce70;
+  transition: ease-in-out color 0.2s;
 }
 .tags-container {
   margin-bottom: 10px;
@@ -259,4 +260,24 @@ a:hover {
   background-color: #45a049;
   color: white;
   transition: ease-in-out 0.2s;
+}
+.suggestions-container {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 1000;
+  display: none; /* Initially hidden */
+}
+
+.suggestions-container div {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.suggestions-container div:hover {
+  background: #f0f0f0;
 }
