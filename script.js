@@ -2,12 +2,15 @@ fetch('glossaire.json')
   .then(response => response.json()) // Convert the response to JSON
   .then(data => {
 	console.log(data); // Log the data to verify the structure
+
 	if (!Array.isArray(data)) {
 	  console.error('Les données ne sont pas un tableau.');
 	  return;
 	}
+
 	// Sort data alphabetically by the term
 	data.sort((a, b) => a.term.localeCompare(b.term, 'fr'));
+
 	// Function to normalize strings (removes accents)
 	function normalizeString(str) {
 	  return str
