@@ -135,7 +135,7 @@ input[type="checkbox"] {
   border-radius: 8px;
   padding: 16px;
   margin: 8px auto;
-  background-color: rgba(178, 193, 179, 0.846);
+  background-color: rgba(203, 219, 204, 0.888);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
   width: 80%;
 }
