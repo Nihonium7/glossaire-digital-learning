@@ -2,7 +2,6 @@ fetch('glossaire.json')
   .then(response => response.json()) // Convert the response to JSON
   .then(data => {
 	console.log(data); // Log the data to verify the structure
-
 	if (!Array.isArray(data)) {
 	  console.error('Les données ne sont pas un tableau.');
 	  return;
