@@ -42,6 +42,12 @@ code{
   max-width: 40%;
   height: auto;
 }
+.nothingfound {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .search-container {
   margin: 15% auto;
   text-align: center;
@@ -97,23 +103,17 @@ input[type="checkbox"] {
   align-items: center; /* Center the "X" */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.384); /* Add slight shadow for depth */
 }
-/* Show the clear button when there is text in the search bar */
 #search:not(:placeholder-shown) + .clear-btn {
   display: flex; /* Make the button visible when there is text */
 }
-/* Hover effect */
 .clear-btn:hover,
 .clear-btn:focus {
   background-color: #555; /* Darker gray on hover or focus */
   outline: none; /* Remove default focus outline */
 }
-
-/* Optional focus state for better accessibility */
 .clear-btn:focus {
   box-shadow: 0 0 0 3px rgba(100, 100, 100, 0.5); /* Optional focus ring for accessibility */
 }
-
-/* Results Section */
 .noresult{
   font-size: 1.5em;
 }
