@@ -1,11 +1,16 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 0 40px 0 40px;
   padding: 0;
   line-height: 1.6;
   background-color: #242424;
-  text-align: center; /* Center-aligns the content */
+  text-align: center;
+}
+p{
+  color:#aaa;
+  font-size:0.9em;
+  width: 80%;
+  margin: 0 auto;
 }
 h1 {
   color: #515151;
@@ -37,9 +42,9 @@ h2 {
   width: 100%;
   padding: 10px;
   color: #595959;
-  border: 1px solid #ccc;
+  border: 3px solid #29a724;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.775);
   font-size: 2em;
   background-color: #e2ebe2;
 }
@@ -52,7 +57,6 @@ h2 {
   font-size: 22px;
   cursor: pointer;
   color: #fff; /* White "X" */
-  /* Background styling */
   width: 30px;
   height: 30px;
   background-color: #888; /* Light gray background */
@@ -61,14 +65,11 @@ h2 {
   justify-content: center;
   align-items: center; /* Center the "X" */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.384); /* Add slight shadow for depth */
-  /* transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */ */
 }
-
 /* Show the clear button when there is text in the search bar */
 #search:not(:placeholder-shown) + .clear-btn {
   display: flex; /* Make the button visible when there is text */
 }
-
 /* Hover effect */
 .clear-btn:hover,
 .clear-btn:focus {
@@ -128,7 +129,7 @@ h2 {
   color: #4f4f4f;
   font-weight: bold;
   padding: 5px 10px;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   border-radius: 4px;
   background-color: #dce9dc;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -162,9 +163,12 @@ footer{
   margin: 40px;
   color:#6a6a6a;
 }
-footer a {
+footer p {
+  color: #777;
+}
+a {
   color: #61Ce70;
 }
-footer a:hover {
+a:hover {
   color: #4fa75c;
 }

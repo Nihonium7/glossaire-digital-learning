@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructions de Recherche - Glossaire Digital Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="Logo"></a></div>
+  <h1>Astuces de recherche avancée</h1>
+  <a href="index.html">Revenir à la recherche</a></p>
+  <div class="search-container">
+	<p>La recherche avancée permet d’utiliser des expressions régulières (RegExp) pour affiner vos résultats. Voici comment faire :</p>
+  </div>
+
+  <div id="instructions" class="glossary-entry">
+	<h3>🔍 Instructions de Recherche :</h3>
+	<ul style="text-align: left;">
+	  <li><strong>Recherche simple :</strong> Tapez un mot ou une partie d’un mot pour afficher les termes correspondants.<br>
+		<em>Exemple :</em> <code>appr</code> trouvera <code>apprentissage</code> ou <code>apprenti</code>.
+	  </li>
+	  <li><strong>Utilisation de <code>*</code> :</strong> Le symbole <code>*</code> remplace un ou plusieurs caractères.<br>
+		<em>Exemples :</em> 
+		<ul>
+		  <li><code>pro*</code> trouvera <code>programmation</code>, <code>processus</code>, etc.</li>
+		  <li><code>*tion</code> trouvera <code>formation</code>, <code>réalisation</code>, etc.</li>
+		</ul>
+	  </li>
+	  <li><strong>Recherche insensible à la casse :</strong> Pas besoin de majuscules ou minuscules.<br>
+		<em>Exemple :</em> <code>Apprenti</code> ou <code>apprenti</code> donnent le même résultat.
+	  </li>
+	  <li><strong>Recherche par début ou fin d’un mot :</strong><br>
+		<ul>
+		  <li><code>^</code> pour commencer un mot. <em>Exemple :</em> <code>^prog</code> trouvera <code>programmation</code>.</li>
+		  <li><code>$</code> pour terminer un mot. <em>Exemple :</em> <code>ment$</code> trouvera <code>formation</code>.</li>
+		</ul>
+	  </li>
+	  <li><strong>Recherche de motifs spécifiques :</strong><br>
+		Utilisez <code>.*</code> pour trouver un motif n’importe où dans le mot.<br>
+		<em>Exemple :</em> <code>.*gram.*</code> trouvera <code>programmation</code> et <code>diagramme</code>.
+	  </li>
+	  <li><strong>Caractères spéciaux :</strong> La recherche ignore automatiquement les accents.<br>
+		<em>Exemple :</em> <code>évàluatïon</code> trouvera <code>evaluation</code> et <code>évaluation</code>.
+	  </li>
+	</ul>
+  </div>
+
+  <div id="examples" class="glossary-entry">
+	<h3>💡 Exemples pratiques :</h3>
+	<ul style="text-align: left;">
+	  <li><code>^dé</code> : Tous les mots commençant par "dé".</li>
+	  <li><code>ment$</code> : Tous les mots finissant par "ment".</li>
+	  <li><code>.*gram.*</code> : Tous les mots contenant "gram".</li>
+	  <li><code>^appr.*age</code> : Tous les mots commençant par "appr" et se terminant par "age".</li>
+	</ul>
+  </div>
+
+  <footer>
+	<p>Made with ♥ by Dorian</p>
+  </footer>
+</body>
+</html>
