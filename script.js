@@ -176,7 +176,7 @@ fetch('glossaire.json')
 	const scrollTopBtn = document.getElementById('scrollTopBtn');
 
 	window.addEventListener('scroll', () => {
-	  if (window.scrollY > window.innerHeight / 4) {
+	  if (window.scrollY > window.innerHeight / 2) {
 		scrollTopBtn.style.display = 'block'; // Show button when scrolled 1/4th
 	  } else {
 		scrollTopBtn.style.display = 'none'; // Hide button otherwise
