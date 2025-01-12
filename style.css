@@ -6,7 +6,6 @@ body {
   background-color: #242424;
   text-align: center;
 }
-
 p{
   display: inline-block;
   color:#777;
@@ -154,6 +153,12 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   margin: 40px 40px;
   gap: 5px;
+  opacity: 1; /* Start with fully visible */
+  transition: opacity 0.3s ease-in-out; /* Add the fade transition */
+}
+#alphabet-links.hidden {
+  display: none;
+  opacity: 0;
 }
 #alphabet-links a {
   text-decoration: none;
