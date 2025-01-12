@@ -50,27 +50,27 @@ fetch('glossaire.json')
 	function displaySearchResults(query) {
 	  const resultsDiv = document.getElementById('results');
 	  resultsDiv.innerHTML = ''; // Clear previous results
-	
+
 	  try {
 		// Normalize the query and create a regex
 		const normalizedQuery = normalizeString(query).replace(/\*/g, '.*'); // Replace `*` with `.*` for matching
 		const regex = new RegExp(normalizedQuery, 'i'); // Case-insensitive regex
-	
+
 		// Check if the checkbox is checked
 		const includeDefinitions = document.getElementById('search-definitions').checked;
-	
+
 		// Find terms that match the regex in title or definition
 		const matches = data.filter(entry => {
 		  const matchesTerm = regex.test(normalizeString(entry.term));
 		  const matchesDefinition = includeDefinitions && regex.test(normalizeString(entry.definition));
 		  return matchesTerm || matchesDefinition;
 		});
-	
+
 		if (matches.length === 0) {
 		  resultsDiv.innerHTML = '<p class="noresult" style="color:white;">Aucun résultat trouvé.</p>';
 		  return;
 		}
-	
+
 		matches.forEach(match => {
 		  const termDiv = document.createElement('div');
 		  termDiv.classList.add('glossary-entry'); // Add the CSS class
@@ -112,23 +112,47 @@ fetch('glossaire.json')
 	// Ajouter un événement sur la barre de recherche
 	const searchInput = document.getElementById('search');
 	const clearButton = document.querySelector('.clear-btn'); // Select the clear button
-	
+
 	clearButton.addEventListener('click', () => {
 	  searchInput.value = ''; // Clear the search input
 	  clearButton.style.display = 'none'; // Hide the "X"
 	  displayAllTerms(); // Show all terms when cleared
 	});
-	
+
 	searchInput.addEventListener('input', () => {
 	  const query = searchInput.value.trim();
 	
 	  if (query === '') {
 		clearButton.style.display = 'none'; // Hide the "X" when input is empty
 		displayAllTerms();
+	
+		// Show the alphabet section again and reset its opacity
+		const alphabetLinks = document.getElementById('alphabet-links');
+		alphabetLinks.style.display = 'flex';
+		alphabetLinks.style.opacity = '1'; // Reset opacity to 1 for smooth transition
 	  } else {
 		clearButton.style.display = 'block'; // Show the "X" when there's input
 		displaySearchResults(query);
+	
+		// Hide the alphabet section with a fade effect when typing starts
+		const alphabetLinks = document.getElementById('alphabet-links');
+		alphabetLinks.style.opacity = '0';
+		setTimeout(() => {
+		  alphabetLinks.style.display = 'none'; // Completely hide after fading out
+		}, 300); // Delay for the fade effect to finish
 	  }
+	});
+	
+	// Clear button functionality
+	clearButton.addEventListener('click', () => {
+	  searchInput.value = ''; // Clear the search input
+	  clearButton.style.display = 'none'; // Hide the "X"
+	  displayAllTerms(); // Show all terms when cleared
+	
+	  // Show the alphabet section again and reset its opacity
+	  const alphabetLinks = document.getElementById('alphabet-links');
+	  alphabetLinks.style.display = 'flex';
+	  alphabetLinks.style.opacity = '1'; // Reset opacity to 1 for smooth transition
 	});
 
 	// Ensure hover state works correctly
@@ -163,18 +187,5 @@ fetch('glossaire.json')
 	  // Smooth scroll to the top of the page
 	  smoothScrollTo(document.body);
 	});
-
-	// Search Button Logic
-// 	const searchBtn = document.getElementById('searchBtn');
-// 
-// 	searchBtn.addEventListener('click', () => {
-// 	  searchInput.focus(); // Focus on the search bar
-// 
-// 	  // Smoothly scroll to the search input
-// 	  window.scrollTo({
-// 		top: searchInput.offsetTop - 20,  // Adjust to ensure it’s not hidden under the header
-// 		behavior: 'smooth'
-// 	  });
-// 	});
   })
   .catch(error => console.error('Erreur de chargement du fichier JSON:', error));
