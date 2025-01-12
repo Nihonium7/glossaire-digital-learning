@@ -193,7 +193,7 @@
 	},
 	{
 		"term": "LMS (Learning Management System)",
-		"definition": "Système de gestion de l'apprentissage permettant de créer, suivre et gérer des cours en ligne."
+		"definition": "Plateforme où sont déposés les modules e-learning, activités formatives, quiz, fichiers annexes... etc. Une plateforme LMS permet la gestion des comptes apprenants ainsi que l'apprentissage, en permettant de créer, suivre et gérer des cours en ligne.<br>La LMS est ingéniée pour échanger des informations avec les packages SCORM, remontant des données de suivi et de statistiques telles que le taux de progression dans le module, les scores des quiz, le temps passé sur la formation, etc."
 	},
 	{
 		"term": "Maquette graphique (propositions de Direction Artistique)",
