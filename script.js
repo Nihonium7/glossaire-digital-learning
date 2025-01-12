@@ -160,16 +160,16 @@ fetch('glossaire.json')
 	});
 
 	// Search Button Logic
-	const searchBtn = document.getElementById('searchBtn');
-
-	searchBtn.addEventListener('click', () => {
-	  searchInput.focus(); // Focus on the search bar
-
-	  // Smoothly scroll to the search input
-	  window.scrollTo({
-		top: searchInput.offsetTop - 20,  // Adjust to ensure it’s not hidden under the header
-		behavior: 'smooth'
-	  });
-	});
+// 	const searchBtn = document.getElementById('searchBtn');
+// 
+// 	searchBtn.addEventListener('click', () => {
+// 	  searchInput.focus(); // Focus on the search bar
+// 
+// 	  // Smoothly scroll to the search input
+// 	  window.scrollTo({
+// 		top: searchInput.offsetTop - 20,  // Adjust to ensure it’s not hidden under the header
+// 		behavior: 'smooth'
+// 	  });
+// 	});
   })
   .catch(error => console.error('Erreur de chargement du fichier JSON:', error));
