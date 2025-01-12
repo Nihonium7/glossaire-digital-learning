@@ -21,6 +21,13 @@ h2 {
   color: #cdcdcd;
   font-style: italic;
 }
+ul, li{
+  color:#4B4B4B;
+}
+code{
+  color:green;
+  font-weight: bold;
+}
 .logo {
   text-align: center;
   margin: 20px 0;
@@ -47,6 +54,7 @@ h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.775);
   font-size: 2em;
   background-color: #e2ebe2;
+  outline: none;
 }
 /* Clear button with gray bubble style */
 .clear-btn {

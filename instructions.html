@@ -21,19 +21,19 @@
 		<em>Exemple :</em> <code>appr</code> trouvera <code>apprentissage</code> ou <code>apprenti</code>.
 	  </li>
 	  <li><strong>Utilisation de <code>*</code> :</strong> Le symbole <code>*</code> remplace un ou plusieurs caractères.<br>
-		<em>Exemples :</em> 
-		<ul>
-		  <li><code>pro*</code> trouvera <code>programmation</code>, <code>processus</code>, etc.</li>
-		  <li><code>*tion</code> trouvera <code>formation</code>, <code>réalisation</code>, etc.</li>
-		</ul>
+		<em>Exemple :</em> <code>pro*</code> trouvera <code>programmation</code>, <code>processus</code>, etc.
 	  </li>
 	  <li><strong>Recherche insensible à la casse :</strong> Pas besoin de majuscules ou minuscules.<br>
 		<em>Exemple :</em> <code>Apprenti</code> ou <code>apprenti</code> donnent le même résultat.
 	  </li>
 	  <li><strong>Recherche par début ou fin d’un mot :</strong><br>
 		<ul>
-		  <li><code>^</code> pour commencer un mot. <em>Exemple :</em> <code>^prog</code> trouvera <code>programmation</code>.</li>
-		  <li><code>$</code> pour terminer un mot. <em>Exemple :</em> <code>ment$</code> trouvera <code>formation</code>.</li>
+		  <li><code>^</code> : Indique que le terme commence par ce motif.<br>
+			<em>Exemple :</em> <code>^dé</code> trouvera <code>développement</code>, <code>définition</code>.
+		  </li>
+		  <li><code>$</code> : Indique que le terme se termine par ce motif.<br>
+			<em>Exemple :</em> <code>ment$</code> trouvera <code>développement</code>, <code>enseignement</code>.
+		  </li>
 		</ul>
 	  </li>
 	  <li><strong>Recherche de motifs spécifiques :</strong><br>
@@ -41,7 +41,7 @@
 		<em>Exemple :</em> <code>.*gram.*</code> trouvera <code>programmation</code> et <code>diagramme</code>.
 	  </li>
 	  <li><strong>Caractères spéciaux :</strong> La recherche ignore automatiquement les accents.<br>
-		<em>Exemple :</em> <code>évàluatïon</code> trouvera <code>evaluation</code> et <code>évaluation</code>.
+		<em>Exemple :</em> <code>formation</code> trouvera <code>formation</code> et <code>formátion</code>.
 	  </li>
 	</ul>
   </div>
@@ -53,6 +53,7 @@
 	  <li><code>ment$</code> : Tous les mots finissant par "ment".</li>
 	  <li><code>.*gram.*</code> : Tous les mots contenant "gram".</li>
 	  <li><code>^appr.*age</code> : Tous les mots commençant par "appr" et se terminant par "age".</li>
+	  <li><code>^f.*n$</code> : Toutes les expressions commençant par "f" et se terminant par "n" ("fiche de sonorisation", "Formation par simulation", "formation").</li>
 	</ul>
   </div>
 
