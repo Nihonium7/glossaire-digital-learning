@@ -31,7 +31,7 @@
 	},
 	{
 		"term": "Articulate Review",
-		"definition": "Outil de la suite Articulate qui permet d'exporter le projet pour tester le fonctionnement d'un module en ligne. Il permet aussi d'ajouter des commentaires pour demander des modifications ou signaler des bugs.",
+		"definition": "Outil de la suite Articulate: souvent utilisé pour le recettage, c'est un environnement en ligne qui permet de tester le fonctionnement d'un module. Review permet aussi d'ajouter des commentaires pour demander des modifications ou signaler des bugs.",
 		"tags": ["#outils", "#design"]
 	},
 	{
