@@ -247,32 +247,64 @@ fetch('glossaire.json')
 	// Event listeners for the search bar
 	const searchInput = document.getElementById('search');
 	const clearButton = document.querySelector('.clear-btn');
+	// Clear Button Event Listener
 	clearButton.addEventListener('click', () => {
-	  searchInput.value = '';
+	  searchInput.value = ''; // Clear search input
 	  clearButton.style.display = 'none';
-	  displayAllTerms(); // Show all terms when cleared
+	  displayAllTerms(); // Show all terms
+	
+	  // Show tags and alphabet letters when cleared
+	  const tagsDiv = document.getElementById('tags');
+	  const alphabetLinks = document.getElementById('alphabet-links');
+	  tagsDiv.style.display = 'block';
+	  alphabetLinks.style.display = 'flex';
+	  alphabetLinks.style.opacity = '1';
 	});
 
 	searchInput.addEventListener('input', () => {
 	  const query = searchInput.value.trim();
-
+	  const tagsDiv = document.getElementById('tags'); // Reference to the tag list
+	  const alphabetLinks = document.getElementById('alphabet-links'); // Reference to the alphabet letters
+	
 	  if (query === '') {
-		clearButton.style.display = 'none';
-		displayAllTerms();
-
-		const alphabetLinks = document.getElementById('alphabet-links');
-		alphabetLinks.style.display = 'flex';
-		alphabetLinks.style.opacity = '1';
+		// This block runs when the search field is cleared (manually or via the clear button)
+		clearButton.style.display = 'none'; // Hide the clear button
+		displayAllTerms(); // Show all terms
+	
+		// Ensure tags and alphabet letters reappear
+		tagsDiv.classList.remove('hidden'); // Remove the 'hidden' class
+		tagsDiv.style.display = 'block'; // Ensure it is visible in the layout
+		alphabetLinks.style.display = 'flex'; // Ensure alphabet links are visible
+		alphabetLinks.style.opacity = '1'; // Fade them in
 	  } else {
-		clearButton.style.display = 'block';
-		displaySearchResults(query);
-
-		const alphabetLinks = document.getElementById('alphabet-links');
-		alphabetLinks.style.opacity = '0';
+		// This block runs when there is a query in the search field
+		clearButton.style.display = 'block'; // Show the clear button
+		displaySearchResults(query); // Filter and display results
+	
+		// Hide tags and alphabet links with a fade-out
+		tagsDiv.classList.add('hidden'); // Add the 'hidden' class
 		setTimeout(() => {
-		  alphabetLinks.style.display = 'none';
-		}, 300);
+		  tagsDiv.style.display = 'none'; // Completely hide after the fade-out
+		}, 300); // Match the CSS transition duration
+		alphabetLinks.style.opacity = '0'; // Fade out the alphabet links
+		setTimeout(() => {
+		  alphabetLinks.style.display = 'none'; // Hide the alphabet links
+		}, 300); // Match the CSS transition duration
 	  }
+	});
+	
+	clearButton.addEventListener('click', () => {
+	  searchInput.value = ''; // Clear the search field
+	  clearButton.style.display = 'none'; // Hide the clear button
+	  displayAllTerms(); // Reset and display all terms
+	
+	  // Ensure tags and alphabet letters reappear
+	  const tagsDiv = document.getElementById('tags');
+	  const alphabetLinks = document.getElementById('alphabet-links');
+	  tagsDiv.classList.remove('hidden');
+	  tagsDiv.style.display = 'block'; // Re-show the tags
+	  alphabetLinks.style.display = 'flex'; // Re-show the alphabet links
+	  alphabetLinks.style.opacity = '1'; // Fade them back in
 	});
 
 	// Initialization: Create alphabet links, display tags, and show all terms

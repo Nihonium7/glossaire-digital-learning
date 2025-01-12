@@ -435,6 +435,16 @@
 		"tags": ["#contenu", "#modalité"]
 	},
 	{
+		"term": "Unity 3D",
+		"definition": "Unity est un moteur de jeu multiplateforme puissant et accessible qui permet de créer des expériences interactives 3D en temps réel. Il est particulièrement apprécié pour sa facilité d’utilisation, son vaste écosystème d’outils et son langage de script basé sur C#.",
+		"tags": ["#outils"]
+	},
+	{
+		"term": "Unreal Engine",
+		"definition": "Unreal Engine est un moteur de jeu avancé conçu pour produire des graphismes photoréalistes et des expériences immersives en 3D. Il se distingue par ses outils de rendu visuel de haute qualité, son langage de script Blueprint visuel et sa capacité à gérer des projets complexes.",
+		"tags": ["#outils"]
+	},
+	{
 		"term": "Wrike",
 		"definition": "Outil de gestion de projet comprenant les plannings, plans de charge de l’équipe ainsi que toutes les informations nécessaires à la rentabilité du projet (alloués, efforts…).",
 		"tags": ["#outils", "#process"]
