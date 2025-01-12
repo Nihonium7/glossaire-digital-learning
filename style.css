@@ -33,13 +33,13 @@ code{
   font-weight: bold;
 }
 .logo {
-  position: fixed;
+  position: relative;
   top: 5px;
-  left: -50px;
+  left: -45%;
   margin: 20px 0;
 }
 .logo img {
-  max-width: 40%;
+  max-width: 60px;
   height: auto;
 }
 .nothingfound {
