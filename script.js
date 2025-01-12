@@ -49,26 +49,31 @@ fetch('glossaire.json')
 	// Fonction pour afficher uniquement les termes correspondant à une recherche
 	function displaySearchResults(query) {
 	  const resultsDiv = document.getElementById('results');
-	  resultsDiv.innerHTML = ''; // Réinitialiser les résultats
-
+	  resultsDiv.innerHTML = ''; // Clear previous results
+	
 	  try {
-		// Normalise la recherche et crée une regex à partir de la recherche
-		const normalizedQuery = normalizeString(query).replace(/\*/g, '.*'); // Remplace `*` par `.*` pour correspondre à tout
-		const regex = new RegExp(normalizedQuery, 'i'); // Expression insensible à la casse
-
-		// Trouver les termes qui correspondent à la regex
-		const matches = data.filter(entry =>
-		  regex.test(normalizeString(entry.term))
-		);
-
+		// Normalize the query and create a regex
+		const normalizedQuery = normalizeString(query).replace(/\*/g, '.*'); // Replace `*` with `.*` for matching
+		const regex = new RegExp(normalizedQuery, 'i'); // Case-insensitive regex
+	
+		// Check if the checkbox is checked
+		const includeDefinitions = document.getElementById('search-definitions').checked;
+	
+		// Find terms that match the regex in title or definition
+		const matches = data.filter(entry => {
+		  const matchesTerm = regex.test(normalizeString(entry.term));
+		  const matchesDefinition = includeDefinitions && regex.test(normalizeString(entry.definition));
+		  return matchesTerm || matchesDefinition;
+		});
+	
 		if (matches.length === 0) {
 		  resultsDiv.innerHTML = '<p class="noresult" style="color:white;">Aucun résultat trouvé.</p>';
 		  return;
 		}
-
+	
 		matches.forEach(match => {
 		  const termDiv = document.createElement('div');
-		  termDiv.classList.add('glossary-entry'); // Ajoute la classe CSS
+		  termDiv.classList.add('glossary-entry'); // Add the CSS class
 		  termDiv.innerHTML = `<h3>${match.term}</h3><p>${match.definition}</p>`;
 		  resultsDiv.appendChild(termDiv);
 		});
