@@ -44,8 +44,25 @@ code{
 }
 #search-wrapper {
   position: relative;
-  width: 60%; /* Control the width of the search bar */
-  margin: 0 auto; /* Center the search bar */
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  color: #cdcdcd;
+  font-size: 0.9em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #29a724; /* Modern browsers support this */
+  cursor: pointer;
 }
 #search {
   width: 100%;
