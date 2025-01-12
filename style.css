@@ -76,19 +76,19 @@ input[type="checkbox"] {
 }
 #search {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   color: #595959;
   border: 3px solid #29a724;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.775);
-  font-size: 2em;
+  font-size: 1.5em;
   background-color: #e2ebe2;
   outline: none;
 }
 /* Clear button with gray bubble style */
 .clear-btn {
   position: absolute;
-  right: -5px; /* Align it to the right of the search bar */
+  right: -15px; /* Align it to the right of the search bar */
   top: 50%; /* Vertically center it */
   transform: translateY(-50%); /* Adjust for perfect vertical centering */
   font-size: 22px;
@@ -212,7 +212,7 @@ a:hover {
 }
 .tags-container {
   margin-bottom: 10px;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 .tags-container a{
   text-decoration: none;
@@ -233,7 +233,7 @@ a:hover {
   text-decoration: none;
 }
 .tag, #clear-tag-btn {
-  font-size:0.8em;
+  font-size:1em;
   background-color: #4CAF50;
   color: rgb(226, 226, 226);
   padding: 5px 10px;
