@@ -67,7 +67,7 @@ fetch('glossaire.json')
 		});
 
 		if (matches.length === 0) {
-		  resultsDiv.innerHTML = '<p class="noresult" style="color:white;">Aucun résultat trouvé.</p><img class="nothingfound" src="dc_tree2.webp" alt="404 image" /><br>';
+		  resultsDiv.innerHTML = '<p class="noresult" style="color:white;">Aucun résultat trouvé.</p><img class="nothingfound" src="https://dorianfichot.com/data/files/dc_tree2.webp" alt="404 image" /><br>';
 		  return;
 		}
 

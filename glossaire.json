@@ -193,7 +193,7 @@
 	},
 	{
 		"term": "LMS (Learning Management System)",
-		"definition": "Plateformes où sont déposés les modules e-learning, activités formatives, quiz, fichiers annexes... etc. Une plateforme LMS permet la gestion des comptes apprenants ainsi que celle des formations, en permettant de créer, suivre et gérer des cours en ligne.<br>Elles permettent également un suivi statistique rapproché sur toutes les actions des apprenants : les LMS échangent des informations avec les packages SCORM (modules), en remontant des données de suivi et de statistiques très poussées telles que le taux de progression dans le module, les scores des quiz, le temps passé sur les cours, les réponses aux questions, etc."
+		"definition": "Plateformes où sont déposés les modules e-learning, activités formatives, quiz, fichiers annexes... etc. Une plateforme LMS permet la gestion des comptes apprenants ainsi que celle des formations, en permettant de créer, suivre et gérer des cours en ligne.<br>Elles permettent également un suivi statistique rapproché sur toutes les actions des apprenants : les LMS échangent des informations avec les packages SCORM (modules) en remontant des données de suivi très poussées, telles que le taux de progression dans le module, les scores des quiz, le temps passé sur les cours, les réponses aux questions, etc."
 	},
 	{
 		"term": "Maquette graphique (propositions de Direction Artistique)",
