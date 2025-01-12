@@ -7,10 +7,13 @@ body {
   text-align: center;
 }
 p{
+  display: inline-block;
   color:#777;
-  font-size:0.9em;
-  width: 80%;
+  font-size:0.8em;
   margin: 0 auto;
+}
+.prez{
+  font-size: 1.4em;
 }
 h1 {
   color: #333;
@@ -39,23 +42,22 @@ code{
   height: auto;
 }
 .search-container {
-  margin-top: 20%;
+  margin: 15% auto;
   text-align: center;
+  width: 60%;
 }
+
 #search-wrapper {
   position: relative;
-  width: 60%;
+  width: 100%; /* Keep full width for the search bar */
   margin: 0 auto;
-  text-align: center;
 }
 
 label {
   color: #cdcdcd;
   font-size: 0.9em;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 input[type="checkbox"] {
@@ -63,6 +65,7 @@ input[type="checkbox"] {
   height: 18px;
   accent-color: #29a724; /* Modern browsers support this */
   cursor: pointer;
+  margin-right: 5px;
 }
 #search {
   width: 100%;
