@@ -52,12 +52,14 @@ code{
   width: 100%; /* Keep full width for the search bar */
   margin: 0 auto;
 }
+
 label {
   color: #cdcdcd;
   font-size: 0.9em;
   cursor: pointer;
   margin-left: 10px;
 }
+
 input[type="checkbox"] {
   width: 18px;
   height: 18px;
@@ -76,6 +78,7 @@ input[type="checkbox"] {
   background-color: #e2ebe2;
   outline: none;
 }
+/* Clear button with gray bubble style */
 .clear-btn {
   position: absolute;
   right: -5px; /* Align it to the right of the search bar */
@@ -93,17 +96,23 @@ input[type="checkbox"] {
   align-items: center; /* Center the "X" */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.384); /* Add slight shadow for depth */
 }
+/* Show the clear button when there is text in the search bar */
 #search:not(:placeholder-shown) + .clear-btn {
   display: flex; /* Make the button visible when there is text */
 }
+/* Hover effect */
 .clear-btn:hover,
 .clear-btn:focus {
   background-color: #555; /* Darker gray on hover or focus */
   outline: none; /* Remove default focus outline */
 }
+
+/* Optional focus state for better accessibility */
 .clear-btn:focus {
   box-shadow: 0 0 0 3px rgba(100, 100, 100, 0.5); /* Optional focus ring for accessibility */
 }
+
+/* Results Section */
 .noresult{
   font-size: 1.5em;
 }
@@ -153,11 +162,11 @@ input[type="checkbox"] {
 }
 #alphabet-links a {
   text-decoration: none;
-  color: #4f4f4f;
+  color: #cdcdcd;
   font-weight: bold;
   padding: 5px 10px;
   border-radius: 4px;
-  background-color: #929a92;
+  background-color: #393b39;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 #alphabet-links a:hover {
