@@ -41,20 +41,20 @@ h2 {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgb(0, 0, 0);
   font-size: 2em;
-  background-color: #c8d4c8;
+  background-color: #e2ebe2;
 }
 /* Clear button with gray bubble style */
 .clear-btn {
   position: absolute;
-  right: 10px; /* Align it to the right of the search bar */
+  right: -5px; /* Align it to the right of the search bar */
   top: 50%; /* Vertically center it */
   transform: translateY(-50%); /* Adjust for perfect vertical centering */
-  font-size: 18px;
+  font-size: 22px;
   cursor: pointer;
   color: #fff; /* White "X" */
   /* Background styling */
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   background-color: #888; /* Light gray background */
   border-radius: 50%; /* Circular shape */
   display: none; /* Initially hidden */
@@ -130,7 +130,7 @@ h2 {
   padding: 5px 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  background-color: #c8d4c8;
+  background-color: #dce9dc;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 #alphabet-links a:hover {
@@ -143,12 +143,12 @@ h2 {
   top: 20px;
   right: 20px;
   z-index: 1000;
-  background-color: #2dbc28;
+  background-color: #29a724;
   border: none;
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.605);
   transition: background-color 0.5s ease;
 }
 #scrollTopBtn img {
